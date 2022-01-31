@@ -1,0 +1,24 @@
+body {
+    background-image: url();
+}
+button a {
+    text-decoration: none;
+}
+.box{
+  border: 10px solid grey;
+  max-width: 400px;
+  width: 50%;
+
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  text-decoration: none;
+}
