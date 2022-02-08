@@ -6,28 +6,41 @@
 <meta http-equiv="X-UA-Compatible" content = "ie-edge">
 <link rel = "stylesheet" href = "styles.css">
 <script src = "scripts.js" defer></script>
-<script src = "prac_scripts.js" defer></script>
-<title>demo</title>
+<script>
+var user_major = localStorage.getItem("myMajor");
+var user_year = localStorage.getItem("myYear");
+document.getElementById("UMajor").innerHTML = user_major;
+document.getElementById("UCatyear").innerHTML = user_year;
+</script>
+<script>
+var user_major = localStorage.getItem("Major");
+var user_year = localStorage.getItem("Year");
+document.getElementById("UMajor").innerHTML = user_major;
+document.getElementById("UCatyear").innerHTML = user_year;
+</script>
+<title>Florida Tech Degree Planner</title>
 </head>
 
 <body>
 
 	<div class = "heading">
-		<h1> Course Planner</h1>
+		<h2> Degree Planner</h2>
 		<form action="https://catalog.fit.edu/preview_program.php?catoid=12&poid=4388&returnto=580">
 			<input type="submit" value="View Catalog Website" />
 		</form>
-		<button>Print Progress</button>
+		<button>Save</button>
+		<button onclick="printPageArea('printableArea')">Print Progress</button>
 	</div>
 
 <div class = "logged">
 	<p> Logged in as Paul Bassey-Duke 903152570</p>
-	<p style="text-align:right;">Major: Major Catalog Year: Year</p>
+	
 </div>
 
 
 <!-- <h2> Total Number of Credits /127</h2> -->
 <!-- <a target="_blank" href="About me.html"> About me </a> -->
+
 		<div class = "container">
 			<i><h1>Select Classes</h1></i>
 			<p class = "draggable" draggable="true"> COM 1101 Composition and Rhetoric </p>
@@ -63,11 +76,10 @@
 			<p class = "draggable" draggable="true">CSE 4202 Software Development Projects 2</p>
 			<p class = "draggable" draggable="true"> CSE 4083 Formal Languages and Automata Theory</p>
 			</div>
-
-		<!-- <i><h3>Schedule</h3></i> -->
-		<!-- <p class = "draggable" draggable="true"> 3 </p>
-		<p class = "draggable" draggable="true"> 4 </p> -->
 	
+			<div id = "printableArea">
+				<h2 style="text-align: center;">Classes Selected</h2>
+				<p style="text-align:center;">Major: <span id = "UMajor"></span> Catalog Year: <span id = "UCatyear"></span></p>
 		<div class = "non_year">
 			<h1>Senior</h1>
 				<div class = "semester">
@@ -118,7 +130,8 @@
 				
 		</div>
 
-		<button>Save</button>
+		</div>
 		
 </body>
 </html>
+
