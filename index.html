@@ -1,27 +1,69 @@
-<html>
+<!DOCTYPE html>
+
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js" integrity="sha256-+C0A5Ilqmu4QcSPxrlGpaZxJ04VjsRjKu+G82kl5UJk=" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css" integrity="sha256-ze/OEYGcFbPRmvCnrSeKbRTtjG4vGLHXgOqsyLFTRjg=" crossorigin="anonymous" />
-<link rel = "stylesheet" href="prac_css.css">
+	<title>
+        Florida Tech Degree Planner
+	</title>
+  <style>
+    .box{
+  border: 10px solid grey;
+  max-width: 400px;
+  width: 50%;
+
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  text-decoration: none;
+}
+  </style>
 </head>
+<h1 style="text-align: center;"> Degree Planner</h1>
 <body>
-<div class = "box">
-  <select id="select-major" placeholder="Major">
-    <option value="">Select Major...</option>
-    <option value="AL">Computer Science</option>
-    <option value="AK">Software Engineering</option>
-    <option value="AZ">Computer Engineering</option>
-    <option value="AR">Mathematics</option>
-  </select>
-  <select id="select-year" placeholder="Catalog Year">
-    <option value="">Select Catalog Year...</option>
-    <option value="AL">2018/19</option>
-    <option value="AK">2019/20</option>
-    <option value="AZ">2020/21</option>
-    <option value="AR">2021/22</option>
-  </select>
-  <button><a href = proj.html>Search</a></button>
+	<div class = "box">
+    <select id="major">
+        <option value="">Select Major...</option>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Software Engineering">Software Engineering</option>
+        <option value="Computer Engineering">Computer Engineering</option>
+        <option value="Mathematics">Mathematics</option>
+      </select>
+      <select id="year">
+        <option value="">Select Catalog Year...</option>
+        <option value="2018/19">2018/19</option>
+        <option value="2019/20">2019/20</option>
+        <option value="2020/21">2020/21</option>
+        <option value="2021/22">2021/22</option>
+      </select>
+      <button onclick="getmajor(); getcatalog()"><a href = "planner.html">Search</a></button>
 </div>
+
+
+	
+	<script type="text/javascript">
+    function getmajor() {
+    selectElement = document.querySelector('#major');
+    major = selectElement.value;
+    document.querySelector('.major').textContent = major;
+    localStorage.setItem("myMajor",major)
+    }
+
+    function getcatalog() {
+    selectElement = document.querySelector('#year');
+    year = selectElement.value;
+    document.querySelector('.year').textContent = year;
+    localStorage.setItem("myYear",year)
+}
+    
+    
+	</script>
 </body>
+
 </html>
