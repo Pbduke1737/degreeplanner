@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
+<link rel = "icon" href = "fltech.png" type = "image/x-icon">
 <meta name = "viewport" content = "width-device-width , initial-scale = 1.0">
 <meta http-equiv="X-UA-Compatible" content = "ie-edge">
 <link rel = "stylesheet" href = "styles.css">
@@ -40,9 +41,22 @@ document.getElementById("UCatyear").innerHTML = user_year;
 
 <!-- <h2> Total Number of Credits /127</h2> -->
 <!-- <a target="_blank" href="About me.html"> About me </a> -->
+<div class="tab">
+	<button class="tablinks" onclick="openTab(event, 'Core')">Core Classes</button>
+	<button class="tablinks" onclick="openTab(event, 'Rest')">Restricted Electives Math/Science</button>
+	<button class="tablinks" onclick="openTab(event, 'Free')">Free Electives</button>
+	<button class="tablinks" onclick="openTab(event, 'Tech')">Technical Electives </button>
+	<button class="tablinks" onclick="openTab(event, 'Hum')">Humanities</button>
+	<button class="tablinks" onclick="openTab(event, '3000Hum')">3000 Level Humanities</button>
+	<button class="tablinks" onclick="openTab(event, '3000CSE')">Restricted Electives 3000/4000/5000 CSE</button>
+	<button class="tablinks" onclick="openTab(event, 'Transfer')">Transfer Classes</button>
+</div>
+		<!-- credit total -->
 
 		<div class = "container">
 			<i><h1>Select Classes</h1></i>
+			<div id="Core" class="tabcontent">
+				<h1>Core Classes</h1>
 			<p class = "draggable" draggable="true"> COM 1101 Composition and Rhetoric </p>
 			<p class = "draggable" draggable="true"> CSE 1001 Fundamentals of Software Development 1 </p>
 			<p class = "draggable" draggable="true"> CSE 1101 Computing Disciplines and Careers 1 </p>
@@ -76,7 +90,62 @@ document.getElementById("UCatyear").innerHTML = user_year;
 			<p class = "draggable" draggable="true">CSE 4202 Software Development Projects 2</p>
 			<p class = "draggable" draggable="true"> CSE 4083 Formal Languages and Automata Theory</p>
 			</div>
-	
+			
+			<div id="Rest" class="tabcontent">
+				<h1>Restricted Electives</h1>
+			<p class = "draggable" draggable="true"> REST 1 </p>
+			<p class = "draggable" draggable="true"> REST 2 </p>
+			<p class = "draggable" draggable="true"> REST 3 </p>
+			<p class = "draggable" draggable="true"> REST 4 </p>
+			</div>
+			
+			<div id="Free" class="tabcontent">
+				<h1>Free Electives</h1>
+			<p class = "draggable" draggable="true"> FREE 2 </p>
+			<p class = "draggable" draggable="true"> FREE 3 </p>
+			<p class = "draggable" draggable="true"> FREE 4 </p>
+			</div>
+
+
+			<div id="Tech" class="tabcontent">
+				<h1>Technical Electives</h1>
+			<p class = "draggable" draggable="true"> TECH 1 </p>
+			<p class = "draggable" draggable="true"> TECH 2 </p>
+			<p class = "draggable" draggable="true"> TECH 3 </p>
+			</div>
+
+
+			<div id="Hum" class="tabcontent">
+				<h1>Humanities Electives</h1>
+			<p class = "draggable" draggable="true"> HUM 1 </p>
+			<p class = "draggable" draggable="true"> HUM 2 </p>
+			<p class = "draggable" draggable="true"> HUM 3 </p>
+			</div>
+
+			<div id="3000Hum" class="tabcontent">
+				<h1>3000 HUM Electives</h1>
+			<p class = "draggable" draggable="true"> 3000HUM 1 </p>
+			<p class = "draggable" draggable="true"> 3000HUM 2 </p>
+			<p class = "draggable" draggable="true"> 3000HUM 3 </p>
+			</div>
+
+			<div id="3000CSE" class="tabcontent">
+				<h1>3000 CSE  Electives</h1>
+			<p class = "draggable" draggable="true"> 3000CSE 1 </p>
+			<p class = "draggable" draggable="true"> 3000CSE 2 </p>
+			<p class = "draggable" draggable="true"> 3000CSE 3 </p>
+			</div>
+
+			<div id="Transfer" class="tabcontent">
+				<h1>Transfer Credits</h1>
+			<p class = "draggable" draggable="true"> TRANSFER 1 </p>
+			<p class = "draggable" draggable="true"> TRANSFER 2 </p>
+			<p class = "draggable" draggable="true"> TRANSFER 3 </p>
+			</div>
+
+
+		</div>
+			
 			<div id = "printableArea">
 				<h2 style="text-align: center;">Classes Selected</h2>
 				<p style="text-align:center;">Major: <span id = "UMajor"></span> Catalog Year: <span id = "UCatyear"></span></p>
