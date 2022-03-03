@@ -2,6 +2,9 @@ const draggables = document.querySelectorAll('.draggable')
 const containers = document.querySelectorAll('.container')
 const years = document.querySelectorAll('.year')
 const semesters = document.querySelectorAll('.semester')
+const tabs = document.querySelectorAll('.tabcontent')
+
+
 
 draggables.forEach(draggable => {
     draggable.addEventListener('dragstart', () => {
@@ -22,6 +25,20 @@ containers.forEach(container => {
             container.appendChild(draggable)
         } else{
             container.insertBefore(draggable, afterElement)
+        }
+
+    })
+})
+
+tabs.forEach(tabcontent => {
+    tabcontent.addEventListener('dragover' , e => {
+        e.preventDefault()
+        const afterElement = getDragAfterElement(tabcontent,e.clientY)
+        const draggable = document.querySelector('.dragging')
+        if (afterElement == null) {
+            tabcontent.appendChild(draggable)
+        } else{
+            tabcontent.insertBefore(draggable, afterElement)
         }
 
     })
@@ -103,4 +120,19 @@ function printPageArea(areaID){
     WinPrint.focus();
     WinPrint.print();
     WinPrint.close();
+}
+
+
+function openTab(evt, courseCat) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+}
+tablinks = document.getElementsByClassName("tablinks");
+for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+}
+document.getElementById(courseCat).style.display = "block";
+evt.currentTarget.className += " active";
 }
