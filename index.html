@@ -5,6 +5,14 @@
         Florida Tech Degree Planner
 	</title>
   <style>
+     header {
+                background: #333;
+                color: #fff;
+                padding:20px;
+                text-align: center;
+                border-bottom: 4px #000 solid;
+                margin-bottom: 10px;
+            }
     .box{
   border: 10px solid grey;
   max-width: 400px;
@@ -25,7 +33,10 @@
 }
   </style>
 </head>
-<h1 style="text-align: center;"> Degree Planner</h1>
+<header>
+  <h1> Degree Planner</h1>
+</header>
+
 <body>
 	<div class = "box">
     <select id="major">
@@ -45,7 +56,15 @@
       <button onclick="getmajor(); getcatalog()"><a href = "planner.html">Search</a></button>
 </div>
 
+	
 
+<!-- 
+	<button onclick="getOption()"> Check option </button> -->
+    
+    <!-- <button onclick="getcatalog()">Year</button> -->
+
+    <!-- <p>Major:<span class = "major"></span>
+    Catalog Year:<span class = "year"></span></p> -->
 	
 	<script type="text/javascript">
     function getmajor() {
