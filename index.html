@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 
 <head>
+  <link rel = "icon" href = "fltech.png" type = "image/x-icon">
 	<title>
         Florida Tech Degree Planner
 	</title>
   <style>
+    h1 {
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-top: 50px;
+    font-size: 38px;
+    margin:50px auto;
+    max-width: 1240px;
+    padding: 10px;
+}
      header {
                 background: #333;
                 color: #fff;
@@ -14,11 +24,12 @@
                 margin-bottom: 10px;
             }
     .box{
+      background: #fff;
   border: 10px solid grey;
-  max-width: 400px;
+  max-width: 500px;
   width: 50%;
 
-  height: 20vh;
+  height: 40vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,21 +48,21 @@
   <h1> Degree Planner</h1>
 </header>
 
-<body>
+<body background="background.jpg">
 	<div class = "box">
     <select id="major">
         <option value="">Select Major...</option>
-        <option value="Computer Science">Computer Science</option>
+        <!-- <option value="Computer Science">Computer Science</option> -->
         <option value="Software Engineering">Software Engineering</option>
-        <option value="Computer Engineering">Computer Engineering</option>
-        <option value="Mathematics">Mathematics</option>
+        <!-- <option value="Computer Engineering">Computer Engineering</option>
+        <option value="Mathematics">Mathematics</option> -->
       </select>
       <select id="year">
         <option value="">Select Catalog Year...</option>
         <option value="2018/19">2018/19</option>
-        <option value="2019/20">2019/20</option>
+        <!-- <option value="2019/20">2019/20</option>
         <option value="2020/21">2020/21</option>
-        <option value="2021/22">2021/22</option>
+        <option value="2021/22">2021/22</option> -->
       </select>
       <button onclick="getmajor(); getcatalog()"><a href = "planner.html">Search</a></button>
 </div>

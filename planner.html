@@ -3,10 +3,16 @@
 <head>
 <meta charset="utf-8">
 <link rel = "icon" href = "fltech.png" type = "image/x-icon">
+<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
 <meta name = "viewport" content = "width-device-width , initial-scale = 1.0">
 <meta http-equiv="X-UA-Compatible" content = "ie-edge">
 <link rel = "stylesheet" href = "styles.css">
 <script src = "scripts.js" defer></script>
+<script src ="sample.js" defer></script>
 <script>
 var user_major = localStorage.getItem("myMajor");
 var user_year = localStorage.getItem("myYear");
@@ -19,16 +25,17 @@ var user_year = localStorage.getItem("Year");
 document.getElementById("UMajor").innerHTML = user_major;
 document.getElementById("UCatyear").innerHTML = user_year;
 </script>
+
+
+
 <title>Florida Tech Degree Planner</title>
 </head>
 
 <body>
 
 	<div class = "heading">
-		<h2> Degree Planner</h2>
-		<form action="https://catalog.fit.edu/preview_program.php?catoid=12&poid=4388&returnto=580">
-			<input type="submit" value="View Catalog Website" />
-		</form>
+		<h1> Degree Planner</h1>
+		<a href = "https://catalog.fit.edu/preview_program.php?catoid=12&poid=4388&returnto=580"><button>View Catalog Website</button></a>
 		<button>Save</button>
 		<button onclick="printPageArea('printableArea')">Print Progress</button>
 	</div>
@@ -57,144 +64,1220 @@ document.getElementById("UCatyear").innerHTML = user_year;
 			<i><h1>Select Classes</h1></i>
 			<div id="Core" class="tabcontent">
 				<h1>Core Classes</h1>
+			<input id="searchbar" onkeyup="search_courses()" type="text" placeholder="Search Classes">
 			<p class = "draggable" draggable="true"> COM 1101 Composition and Rhetoric </p>
-			<p class = "draggable" draggable="true"> CSE 1001 Fundamentals of Software Development 1 </p>
+			<p class = "draggable" draggable="true"> CSE 1001 Fund of Software Dev 1 </p>
 			<p class = "draggable" draggable="true"> CSE 1101 Computing Disciplines and Careers 1 </p>
 			<p class = "draggable" draggable="true"> CSE 1400 Applied Discrete Mathematics </p>
 			<p class = "draggable" draggable="true"> FYE 1000 University Experience </p>
 			<p class = "draggable" draggable="true"> PSY 1411 Introduction to Psychology </p>
-			<p class = "draggable" draggable="true"> COM 1102 Writing About Literature</p>
-			<p class = "draggable" draggable="true">CSE 1002 Fundamentals of Software Development 2</p>
-			<p class = "draggable" draggable="true">CSE 2120 Computer Organization and Machine Programming</p>
+			<span title="Pre-req : COM 1101"><p class = "draggable" draggable="true"> COM 1102 Writing About Literature</p>
+			<span title="Pre-req : CSE 1001"><p class = "draggable" draggable="true">CSE 1002 Fundamentals of Software Development 2</p>
+			<span title="Pre-req : CSE 1001"><p class = "draggable" draggable="true">CSE 2120 Computer Organization and Machine Programming</p>
 			<p class = "draggable" draggable="true">MTH 1001 Calculus 1</p>
 			<p class = "draggable" draggable="true">MTH 1010 Mathematical Analysis 1</p>
 			<p class = "draggable" draggable="true">COM 2012 Research Sources and Systems</p>
-			<p class = "draggable" draggable="true">COM 2223 Scientific and Technical Communication</p>
-			<p class = "draggable" draggable="true">CSE 2010 Algorithms and Data Structures</p>
-			<p class = "draggable" draggable="true">MTH 1002 Calculus 2</p>
+			<span title="Pre-req : COM 1102"><p class = "draggable" draggable="true">COM 2223 Scientific and Technical Communication</p>
+			<span title="Pre-req : CSE 1002"><p class = "draggable" draggable="true">CSE 2010 Algorithms and Data Structures</p>
+			<span title="Pre-req : MTH 1001"><p class = "draggable" draggable="true">MTH 1002 Calculus 2</p>
 			<p class = "draggable" draggable="true">MTH 1020 Mathematical Analysis 2</p>
-			<p class = "draggable" draggable="true">CSE 2050 Programming in a Second Language</p>
-			<p class = "draggable" draggable="true">CSE 2410 Introduction to Software Engineering</p>
-			<p class = "draggable" draggable="true">HUM 2051 Civilization 1: Ancient Through Medieval</p>
-			<p class = "draggable" draggable="true">HUM 2510 Logic</p>
-			<p class = "draggable" draggable="true">CSE 2400 Applied Statistics</p>
+			<span title="Pre-req : CSE 2010"><p class = "draggable" draggable="true">CSE 2050 Programming in a Second Language</p>
+			<span title="Pre-req : CSE 2010"><p class = "draggable" draggable="true">CSE 2410 Introduction to Software Engineering</p>
+			<span title="Pre-req : COM 1102"><p class = "draggable" draggable="true">HUM 2051 Civilization 1: Ancient Through Medieval</p>
+			<span title="Pre-req : COM 1102"><p class = "draggable" draggable="true">HUM 2510 Logic</p>
+			<span title="Pre-req : MTH 1002"><p class = "draggable" draggable="true">CSE 2400 Applied Statistics</p>
 			<p class = "draggable" draggable="true">CSE 3030 Legal, Ethical and Social Issues in Computing</p>
-			<p class = "draggable" draggable="true">CSE 3411 Software Testing 1</p>
-			<p class = "draggable" draggable="true">CSE 3421 Software Design Methods</p>
+			<span title="Pre-req : CSE 2010"><p class = "draggable" draggable="true">CSE 3411 Software Testing 1</p>
+			<span title="Pre-req : CSE 2010 and CSE 2410"><p class = "draggable" draggable="true">CSE 3421 Software Design Methods</p>
 			<p class = "draggable" draggable="true">AHF 3101 Introduction to Human Factors</p>
-			<p class = "draggable" draggable="true">CSE 4001 Operating Systems Concepts</p>
-			<p class = "draggable" draggable="true">CSE 4415 Software Testing 2</p>
-			<p class = "draggable" draggable="true">CSE 4610 Requirements Engineering</p>
-			<p class = "draggable" draggable="true">CSE 4621 Software Metrics and Modeling</p>
-			<p class = "draggable" draggable="true">CSE 4201 Software Development Projects 1 </p>
-			<p class = "draggable" draggable="true">CSE 4202 Software Development Projects 2</p>
-			<p class = "draggable" draggable="true"> CSE 4083 Formal Languages and Automata Theory</p>
+			<span title="Pre-req : CSE 2010"><p class = "draggable" draggable="true">CSE 4001 Operating Systems Concepts</p>
+			<span title="Pre-req : CSE 2010"><p class = "draggable" draggable="true">CSE 4415 Software Testing 2</p>
+			<span title="Pre-req : CSE 2010"><p class = "draggable" draggable="true">CSE 4610 Requirements Engineering</p>
+			<span title="Pre-req : CSE 2010"><p class = "draggable" draggable="true">CSE 4621 Software Metrics and Modeling</p>
+			<span title="Pre-req : CSE 2010 and CSE 2410"><p class = "draggable" draggable="true">CSE 4201 Software Development Projects 1 </p>
+			<span title="Pre-req : CSE 4201"><p class = "draggable" draggable="true">CSE 4202 Software Development Projects 2</p>
+			<span title="Pre-req : CSE 2010"><p class = "draggable" draggable="true"> CSE 4083 Formal Languages and Automata Theory</p>
 			</div>
 			
 			<div id="Rest" class="tabcontent">
 				<h1>Restricted Electives</h1>
-			<p class = "draggable" draggable="true"> REST 1 </p>
-			<p class = "draggable" draggable="true"> REST 2 </p>
-			<p class = "draggable" draggable="true"> REST 3 </p>
-			<p class = "draggable" draggable="true"> REST 4 </p>
+			<input id="searchbar_rest" onkeyup="search_courses_rest()" type="text" placeholder="Search Classes">
+			<p class ="rest_drag" draggable = "true">BIO 1010 Biological Discovery 1</p>
+
+			<p class ="rest_drag" draggable = "true">BIO 1030 Introduction to Biotechnology</p>
+		   
+			<p class ="rest_drag" draggable = "true">BIO 1040 Intro Biodiv and Phys</p>
+		   
+			<p class ="rest_drag" draggable = "true">BIO 2110 General Genetics</p>
+		   
+			<p class ="rest_drag" draggable = "true">BIO 2112 General Genetics Lab</p>
+		   
+			<p class ="rest_drag" draggable = "true">BIO 3201 Anatomy &  Physiology 1</p>
+		   
+			<p class ="rest_drag" draggable = "true">CHM 1101 General Chemistry 1</p>
+		   
+		   
+			<span title="Pre-req CHM 1101 and (MTH 1000 or MTH 1001)"><p class ="rest_drag" draggable = "true">CHM 1102 General Chemistry 2</p></span>
+		   
+			
+			<p class ="rest_drag" draggable = "true">CHM 1111 General Chemistry Lab 1</p>
+		   
+			<p class ="rest_drag" draggable = "true">CHM 1112 General Chemistry Lab 2</p>
+		   
+			<p class ="rest_drag" draggable = "true">CHM 2001 Organic Chemistry 1</p>
+		   
+			<p class ="rest_drag" draggable = "true">CHM 2002 Organic Chemistry 2</p>
+		   
+			<p class ="rest_drag" draggable = "true">CHM 2011 Organic Chemistry Lab 1</p>
+		   
+			<p class ="rest_drag" draggable = "true">CHM 2012 Organic Chemistry Lab 2</p>
+		   
+			<p class ="rest_drag" draggable = "true">MTH 1003 Calculus 2 for Nat Sci</p>
+		   
+			<p class ="rest_drag" draggable = "true">MTH 1010 Honors Calculus 1</p>
+		   
+			<p class ="rest_drag" draggable = "true">MTH 1603 Appld Calc & Statistics</p>
+		   
+			<p class ="rest_drag" draggable = "true">MTH 1701 College Algebra</p>
+		   
+			<p class ="rest_drag" draggable = "true">MTH 1702 Applied Calculus</p>
+		   
+			<p class ="rest_drag" draggable = "true">MTH 2001 Calculus 3</p>
+		   
+			<p class ="rest_drag" draggable = "true">MTH 2201 Diff Equat/Linear Algebra</p>
+		   
+			<p class ="rest_drag" draggable = "true">MTH 2202 Linear Alg for Diff Equat</p>
+		   
+			
+			
+			<span title="Pre-req MTH 1002 or MTH 1003 or MTH 1020"><p class ="rest_drag" draggable = "true">MTH 2401 Probability/Statistics</p></span>
+		   
+			
+			<span title="Pre-req MTH 1002 or MTH 1020"><p class ="rest_drag" draggable = "true">MTH 3102 Intro to Linear Algebra</p></span>
+			
+			
+			
+			<p class ="rest_drag" draggable = "true">MTH 3107 Optimization</p>
+		   
+			<p class ="rest_drag" draggable = "true">MTH 3200 Honors Differential EQ</p>
+		   
+			<p class ="rest_drag" draggable = "true">MTH 3210 Intro to PDE & Apps</p>
+		   
+			<p class ="rest_drag" draggable = "true">MTH 3312 Scientific Computing</p>
+		   
+			<p class ="rest_drag" draggable = "true">PHY 2002 Physics 2</p>
+		   
+			<p class ="rest_drag" draggable = "true">PHY 2003 Modern Physics</p>
+		   
+			<p class ="rest_drag" draggable = "true">PHY 2091 Physics Laboratory 1</p>
+		   
+			<p class ="rest_drag" draggable = "true">PHY 2092 Physics Laboratory 2</p>
 			</div>
 			
 			<div id="Free" class="tabcontent">
 				<h1>Free Electives</h1>
-			<p class = "draggable" draggable="true"> FREE 2 </p>
-			<p class = "draggable" draggable="true"> FREE 3 </p>
-			<p class = "draggable" draggable="true"> FREE 4 </p>
+			<input id="searchbar_free" onkeyup="search_courses_free()" type="text" placeholder="Search Classes">
+			<p class ="free_drag" draggable = "true">AEE 1201 Intro to Aerospace Engineering</p>
+
+			<p class ="free_drag" draggable = "true">AEE 2201 Aerospace Fundamentals</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 3083 Mech of Materials</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 3161 Fluid Mechanics</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 3162 Compressible Flow</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 3261 Aerospace Experimentation</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 4014 Control Systems</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 4262 Rockets & Mission Analysis</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 4263 Space Flight Mechanics</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 4284 Aero Eng Structures Lab</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 4291 Aero Eng Design 1</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 4807 Space Vehicle Control</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 5130 Viscous Flows</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 5150 Computnl Fluid Dynamics</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 5190 Sel Tops Fluid Dynamics</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 5480 Struct Dynamics</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 5802 Multivar Feedback Control</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 5899 Final Semester Thesis</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 5900 Aerospace Eng Seminar</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 5997 Independent Study</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 5999 Thesis</p>
+		   
+			<p class ="free_drag" draggable = "true">AEE 6999 Dissertation</p>
+		   
+			<p class ="free_drag" draggable = "true">AHF 1101 Aviation Psychology</p>
+		   
+			<p class ="free_drag" draggable = "true">AHF 3101 Intro to Human Factors</p>
+		   
+			<p class ="free_drag" draggable = "true">AHF 3104 Human-Machine Systems</p>
+		   
+			<p class ="free_drag" draggable = "true">AHF 5101 Human Fact in Man-Mach Systems</p>
+		   
+			<p class ="free_drag" draggable = "true">AHF 5201 Human Performance 1</p>
+		   
+			<p class ="free_drag" draggable = "true">AHF 5899 Final Semester Thesis</p>
+		   
+			<p class ="free_drag" draggable = "true">AHF 5990 Directed Research</p>
+		   
+			<p class ="free_drag" draggable = "true">AHF 5990 Directed Research</p>
+		   
+			<p class ="free_drag" draggable = "true">AHF 5999 Thesis</p>
+		   
+			<p class ="free_drag" draggable = "true">ASC 1005 Strategies for Success</p>
+		   
+			<p class ="free_drag" draggable = "true">ASC 1051 Chemistry Review</p>
+		   
+			<p class ="free_drag" draggable = "true">ASC 2000 Peer Leadership</p>
+		   
+			<p class ="free_drag" draggable = "true">ASC 2001 Peer Tutoring Practicum</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 1000 Private Pilot Certificate</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 1001 Flight 1</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 1002 Flight 2</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 1003 Commercial Pilot Stage 1</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 2001 Flight 3</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 2002 Flight 4</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 2102 Flight 4 CP-AMEL</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 2103 CP-ASEL Add-on to CP-AMEL</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 3001 Flt Instructor-Airplane</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 3002 Flt Instructor-Instrument</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 3003 Student Teaching</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 3006 High Performance Airplane</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 3008 Aerobatic Flight</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 3009 Intermediate Aerobatic</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 3010 International Operations</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 3012 Conventional Gear</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 3101 CFI-ASEL Add-on to CFI-AMEL</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 4001 Multiengine Pilot</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 4002 Flt Inst Multiengine</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 4003 Air Taxi Flight Training</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 4006 Adv Multiengine Crew Ops</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 4090 Sp Topics in Flgt Trn</p>
+		   
+			<p class ="free_drag" draggable = "true">AVF 4102 Inital CFI in an AMEL</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 2 Final Program Examination</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 3201 Aviation Planning</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 3202 Airport Design</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 3303 Transportation Logistics</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 4201 Aviation Adv Computer Appl</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 4202 Airport Terminal Development</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 4204 AutoCAD for Airport Environ</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 4204 AutoCAD for Airport Environ</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 4302 Aviation Law</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 4303 General Aviation Ops & Mgt</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 4501 Air Transportation Mgmt</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 4502 Avt Business Simulation</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 4701 Airport Management</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 5000 Planning & Design Fund's</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 5103 Airport Operations</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 5105 Avt Plan and Analys Tech</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 5106 Corp Av Ops & Mgt</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 5107 Airline Management</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 5199 Adv Av Mgt Internship</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 5998 Adv Aviation Rsch Project</p>
+		   
+			<p class ="free_drag" draggable = "true">AVM 5999 Thesis</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 1201 Aviation Meteorology</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 1201 Aviation Meteorology</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 2101 Aviation Physical Science</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 2101 Aviation Physical Science</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 2102 Aerodynamics</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 3201 Aviation Meteorology 2</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 4000 Aviation Physiology Lab</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 4201 Flight Observation Lab</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 4202 Unmanned Aerial Sys</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 4302 Fund of Av Safety Sys</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 4304 Aviation Security</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 4999 Aviation Systems Safety</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 5201 Avt Mete Thry and Pract</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 5203 Imp of Avt on Hum Physiology</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 5204 Aviation Safety Analysis</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 5205 Aviation Statistics</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 5207 Aviation Safety Mgmt Sys</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 5208 Adv Av Safety Research</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 5430 Statgc Anlys in Aviation</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 5999 Thesis</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 6000 Quant Res in Aviation</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 6301 Fund of Rsrch in Aviation</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 6302 Research & Statistics 1</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 6304 Survey & Qual Rsrch Mthds</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 6900 Research Practicum</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 6995 Research in Aviation</p>
+		   
+			<p class ="free_drag" draggable = "true">AVS 6999 Dissertation</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 2 Final Program Examination</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 1001 Aeronautics 1</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 1002 Aeronautics 2</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 1002 Aeronautics 2</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 1200 Intro to Aircraft Systems</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 2001 Aeronautics 3</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 2002 Aeronautics 4</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 2201 National Airspace System</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 2303 Aviation Career Planning</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 3101 Instructional Tech</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 3203 Air Traffic Control 1</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 3501 Spc Topics in Aviation Tech</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 4002 Aviation Research</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 4002 Aviation Research</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 4201 Advanced Aircraft Systems</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 4202 Adv Aircraft Operations</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 4203 Airline Operations</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 4301 Aviation Safety</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 5201 Urban Air Mobility</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 5301 Complex Avt Systems</p>
+		   
+			<p class ="free_drag" draggable = "true">AVT 5302 Avt Accident Invest</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5020 Current Topics in BA</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5021 Coordinating BA</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5022 Measurement in BA</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5029 Capstone PBA 2</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5041 Concept & Princip of BA</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5043 Measure & Experiment Design</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5044 Ethics for BA 1</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5045 Ethics for BA 2</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5047 Assessment & Intervention</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5048 Skill Acquis & Perf Imprv</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5049 Procedure for Beh Reduct</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5050 Supervision & Mgmt</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5060 App Experience in BA 1</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5061 App Experience in BA 2</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5062 App Experience in BA 3</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5063 App Experience in BA 4</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5071 Current Topics in BA 1</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5101 Beh & Functional Assess</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5102 Exp Eval of Interventions</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5106 Beh Pharmacology</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5251 Practical Training in BA</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5261 Supervised Fieldwork 1</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5262 Supervised Fieldwork 2</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5303 Exp Analysis of Behavior</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5403 Training & Development</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5503 Sem in Education Beh Analysis</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5504 Seminar in Clin Beh</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5899 Final Semester Thesis</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5899 Final Semester Thesis</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5901 Graduate Research in BA</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 5999 Thesis</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 6301 Apps of Beh Analys to Coll Ins</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 6800 Supervised Research</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 6899 Final Semester Dissertation</p>
+		   
+			<p class ="free_drag" draggable = "true">BEH 6999 Dissertation in Beh Analysis</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 2 Final Program Examination</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 1010 Biological Discovery 1</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 1030 Introduction to Biotechnology</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 1040 Intro Biodiv and Phys</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 2110 General Genetics</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 2112 General Genetics Lab</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 3201 Anatomy &  Physiology 1</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 4010 Biochemistry 1</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 4011 Biochemistry 1 Lecture</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 4120 Genetic Engr Techniques</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 4150 Special Topics Molecular Bio</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 4301 Advanced Cell Biology</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 4305 Molecular Basis of Disease</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 4990 Biology Forum</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 4991 Undergrad Research 1</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 4992 Undergrad Research 2</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 4993 Undergrad Research 3</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 4994 Undergraduate Research 4</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 5016 Laboratory Methods</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 5210 Applied Physiology</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 5537 Applied Biotech</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 5573 Scientific Skills</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 5576 Molecular Genetics</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 5990 Biological Sciences Seminar</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 5995 Biological Research</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 5997 Industrial Internship</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 5999 Thesis</p>
+		   
+			<p class ="free_drag" draggable = "true">BIO 6999 Dissertation in Biological Sci</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 2 Final Program Examination</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 1045 Intro to Biomed Engr</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 3030 Biofluid Mechanics</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 3081 Biomechanics</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 3240 Comp Meth for Bio Sys</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 3261 Biomech & Biomats Lab</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 4050 Special Topics in BME</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 4292 Biomed Engr Design 1</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 4300 Independent Study in BME</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 4370 Biomed Control Systems</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 4410 Intro Biomedical Imaging</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 4444 Neuroengineering</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 5259 Medical Imaging</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 5720 Biomed Instrumentation</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 5780 BME Analysis 1</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 5790 Selected Topics Biomed Eng</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 5900 BME Seminar</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 5999 Thesis</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 6990 Research</p>
+		   
+			<p class ="free_drag" draggable = "true">BME 6999 Dissertation</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 2 Final Program Examinatione</p>
+			
+			<p class ="free_drag" draggable = "true">BUS 1301 Basic Economics</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 1501 Foundations in CIE 1</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 1710 Found of Bus Analytics</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 1801 Global Bus Perspectives</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 2211 Intro to Financial Acctg</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 2212 Intro to Managerial Acct</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 2303 Macroeconomics</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 2601 Legal & Social Env of Bus</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 2601 Legal & Social Env of Bus</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 2703 Business Statistics</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3208 Fed Income Tax 1</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3211 Intermediate Accounting 1</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3214 Accounting Info Systems</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3304 Sports Economics</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3401 Corporate Finance</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3501 Management Principles</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3503 Human Resource Management</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3504 Management Information Systems</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3509 Intro to Sports Mgmt</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3511 Sys Analysis/Design</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3514 Intro to OS & Ntwk for Bu</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3601 Marketing Principles</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3601 Marketing Principles</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3603 Advertising & Promotion Mgmt</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3607 Mrktg Research</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3611 Ent & Sprts Mrktg</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3704 Quantitative Methods</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3801 Cross-cultural Management</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 3805 Emerging Mrkts Strategies</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4220 Intl Accounting & Reporting</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4284 Accounting Practicum</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4401 Investment Analysis</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4426 Environ and Resource Econ</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4501 Production/Operations Mgmt</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4502 Org Behavior and Theory</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4504 Spc Topics in Management</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4520 Leadership Theory & Pract</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4701 International Business</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4702 Bus Strategy and Policy</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4702 Bus Strategy and Policy</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4783 Practicum Planning</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4786 Major Field Practicum</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4787 Business Practicum</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4788 Business Plan Research</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4790 Directed Business Study</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5070 Special Topics in Business</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5413 Data Analytics and BI</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5421 Managerial Economics</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5426 Enviro & Resource Economics</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5431 Managerial Accounting</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5433 Adv Prob & Current Topics</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5435 Tax & Fin Acct Research</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5440 Financial Management</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5450 Organizational Behavior</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5457 Negotiation & Conflict Resolut</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5458 Leadership Theory & Effect Mgt</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5461 Production & Oper Mgmt</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5480 Strategic Management</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5486 International Business</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5601 Essentials of Bus Devel 1</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5644 Intl Acct & Reporting</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5656 Consumer Behavior Str</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5661 Strategic Proj Mgmt</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 6030 DBA Intro & Orient</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 6031 Issues in Strat Mgmt</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 6032 Org Beh/Ethics/Ldrshp in Bus</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 6037 Financial Bus Analysis</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 6990 Research Methods 1</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 6992 Special Topics Seminar</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 6999 Dissertation</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4701 International Business</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4702 Bus Strategy and Policy</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4783 Practicum Planning</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4786 Major Field Practicum</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4787 Business Practicum</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4788 Business Plan Research</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 4790 Directed Business Study</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5070 Special Topics in Business</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5413 Data Analytics and BI</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5421 Managerial Economics</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5426 Enviro & Resource Economics</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5431 Managerial Accounting</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5433 Adv Prob & Current Topics</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5435 Tax & Fin Acct Research</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5440 Financial Management</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5450 Organizational Behavior</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5450 Organizational Behavior</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5457 Negotiation & Conflict Resolut</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5458 Leadership Theory & Effect Mgt</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5461 Production & Oper Mgmt</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5480 Strategic Management</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5486 International Business</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5601 Essentials of Bus Devel 1</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5644 Intl Acct & Reporting</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5656 Consumer Behavior Str</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 5661 Strategic Proj Mgmt</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 6030 DBA Intro & Orient</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 6031 Issues in Strat Mgmt</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 6032 Org Beh/Ethics/Ldrshp in Bus</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 6037 Financial Bus Analysis</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 6990 Research Methods 1</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 6992 Special Topics Seminar</p>
+		   
+			<p class ="free_drag" draggable = "true">BUS 6999 Dissertation</p>
+		   
+			<p class ="free_drag" draggable = "true">BUSA 2303 Macroeconomics</p>
 			</div>
 
 
 			<div id="Tech" class="tabcontent">
 				<h1>Technical Electives</h1>
-			<p class = "draggable" draggable="true"> TECH 1 </p>
-			<p class = "draggable" draggable="true"> TECH 2 </p>
-			<p class = "draggable" draggable="true"> TECH 3 </p>
+			<input id="searchbar_tech" onkeyup="search_courses_tech()" type="text" placeholder="Search Classes">
+			<p class = "tech_drag" draggable = "true">BUS 1301 Basic Economics</p>
+			<p class = "tech_drag" draggable = "true">BUS 1501 Foundations in CIE 1</p>
+			<p class = "tech_drag" draggable = "true">BUS 1710 Found of Bus Analytics</p>
+			<p class = "tech_drag" draggable = "true">BUS 1801 Global Bus Perspectives</p>
+			<p class = "tech_drag" draggable = "true">BUS 2211 Intro to Financial Acctg</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 2212 Intro to Managerial Acct</p>
+			
+			<p class = "tech_drag" draggable = "true">BUS 2303 Macroeconomics</p>
+			
+			<p class = "tech_drag" draggable = "true">BUS 2601 Legal & Social Env of Bus</p>
+			
+			<p class = "tech_drag" draggable = "true">BUS 2703 Business Statistics</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 3208 Fed Income Tax 1</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 3211 Intermediate Accounting 1</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 3214 Accounting Info Systems</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 3304 Sports Economics</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 3401 Corporate Finance</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 3501 Management Principles</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 3503 Human Resource Management</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 3504 Management Information Systems</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 3509 Intro to Sports Mgmt</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 3511 Sys Analysis/Design</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 3514 Intro to OS & Ntwk for Bu</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 3601 Marketing Principles</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 3603 Advertising & Promotion Mgmt</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 3607 Mrktg Research</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 3611 Ent & Sprts Mrktg</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 3704 Quantitative Methods</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 3801 Cross-cultural Management</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 3805 Emerging Mrkts Strategies</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4220 Intl Accounting & Reporting</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4284 Accounting Practicum</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4401 Investment Analysis</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4426 Environ and Resource Econ</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4501 Production/Operations Mgmt</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4502 Org Behavior and Theory</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4504 Spc Topics in Management</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4520 Leadership Theory & Pract</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4701 International Business</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4702 Bus Strategy and Policy</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4702 Bus Strategy and Policy</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4783 Practicum Planning</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4786 Major Field Practicum</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4787 Business Practicum</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4788 Business Plan Research</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4790 Directed Business Study</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 5070 Special Topics in Business</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 5413 Data Analytics and BI</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 5421 Managerial Economics</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 5426 Enviro & Resource Economics</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 5431 Managerial Accounting</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 5433 Adv Prob & Current Topics</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 5435 Tax & Fin Acct Research</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 5440 Financial Management</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 5450 Organizational Behavior</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 5457 Negotiation & Conflict Resolut</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 5458 Leadership Theory & Effect Mgt</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 5461 Production & Oper Mgmt</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 5480 Strategic Management</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 5486 International Business</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 5601 Essentials of Bus Devel 1</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 5644 Intl Acct & Reporting</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 5656 Consumer Behavior Str</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 5661 Strategic Proj Mgmt</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 6030 DBA Intro & Orient</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 6031 Issues in Strat Mgmt</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 6032 Org Beh/Ethics/Ldrshp in Bus</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 6037 Financial Bus Analysis</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 6990 Research Methods 1</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 6992 Special Topics Seminar</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 6999 Dissertation</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4701 International Business</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4702 Bus Strategy and Policy</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4783 Practicum Planning</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4786 Major Field Practicum</p>
+		   
+			<p class = "tech_drag" draggable = "true">BUS 4787 Business Practicum</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 4788 Business Plan Research</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 4790 Directed Business Study</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5070 Special Topics in Business</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5413 Data Analytics and BI</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5421 Managerial Economics</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5426 Enviro & Resource Economics</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5431 Managerial Accounting</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5433 Adv Prob & Current Topics</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5435 Tax & Fin Acct Research</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5440 Financial Management</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5450 Organizational Behavior</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5450 Organizational Behavior</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5457 Negotiation & Conflict Resolut</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5458 Leadership Theory & Effect Mgt</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5461 Production & Oper Mgmt</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5480 Strategic Management</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5486 International Business</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5601 Essentials of Bus Devel 1</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5644 Intl Acct & Reporting</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5656 Consumer Behavior Str</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 5661 Strategic Proj Mgmt</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 6030 DBA Intro & Orient</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 6031 Issues in Strat Mgmt</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 6032 Org Beh/Ethics/Ldrshp in Bus</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 6037 Financial Bus Analysis</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 6990 Research Methods 1</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 6992 Special Topics Seminar</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUS 6999 Dissertation</p>
+		   
+			<p class ="tech_drag" draggable = "true">BUSA 2303 Macroeconomics</p>
+		   
+			
+		   
+		   
+		   <span title="Pre-req CSE 2010 and CSE 2120" ><p class = "tech_drag" draggable = "true">CSE 3120 Comp Arch and Assembly</p></span>
+			
+		   <span title="Pre-req CSE 2010 "> <p class = "tech_drag" draggable = "true">CSE 3231 Computer Networks</p></span>
+		   
+		   <span title="Pre-req MTH 2201 and MTH 3200"> <p class = "tech_drag" draggable = "true">CSE 3312 Scientific Computing</p></span>
+		   
+		   <span title="Pre-req CSE 2410 or ECE 2552 or ECE 3541"> <p class = "tech_drag" draggable = "true">CSE 3411 Software Testing 1</p></span>
+		   
+		   <span title="Pre-req CSE 2010 "> <p class = "tech_drag" draggable = "true">CSE 3801 Intro to Cyber Operations</p></span>
+		   
+		   <span title="Pre-req (CSE 2010 and CSE 2120) or ECE 2552"><p class = "tech_drag" draggable = "true">CSE 4001  Opr Systems Concepts</p></span>
+		   
+		   <span title="Pre-req CSE 2010"> <p class = "tech_drag" draggable = "true">CSE 4020 Database Systems</p></span>
+		   
+		   <span title="Pre-req CSE 2010 or (ECE 2552, and ECE 3541)"><p class = "tech_drag" draggable = "true">CSE 4081 Intro Ana of Algorithms</p></span>
+		   
+		   <span title="Pre-req CSE 2010 or (ECE 2552, and ECE 3541)"><p class = "tech_drag" draggable = "true">CSE 4084 Formal Lang/Auto Th</p></span>
+		   
+		   <span title="Pre-req CSE 2410 and CSE 3100 "> <p class = "tech_drag" draggable = "true">CSE 4101 Computer Science Proj 1</p></span>
+		   
+		   <span title="Pre-req CSE 4101 "> <p class = "tech_drag" draggable = "true">CSE 4102 Computer Science Proj 2</p></span>
+		   
+		   <span title="Pre-req CSE 2410 and CSE 3100 "> <p class = "tech_drag" draggable = "true">CSE 4201 Software Devel Proj 1</p></span>
+		   
+		   <span title="Pre-req CSE 4201"> <p class = "tech_drag" draggable = "true">CSE 4202 Software Devel Proj 2</p></span>
+		   
+		   <span title="Pre-req CSE 2010 or ECE 2552 "> <p class = "tech_drag" draggable = "true">CSE 4250 Prog Language Concepts</p></span>
+		   
+		   <span title="Pre-req CSE 2010 or ECE 2552 "> <p class = "tech_drag" draggable = "true">CSE 4301 Intro Art Intelligence</p></span>
+		   
+		   
+		   
+		   
+		   
+		   
+		   <p class = "tech_drag" draggable = "true">CSE 4400 Independent Study in Comp</p>
+		   
+		   
+		   <span title="Pre-req CSE 3421 and CSE 4610"> <p class = "tech_drag" draggable = "true">CSE 4410 Intro Soft Project Mgmt</p></span>
+		   
+		   <p class = "tech_drag" draggable = "true">CSE 4510 Spc Top in Comp Science</p>
+		   
+		   <span title="Pre-req CSE 2410" ><p class = "tech_drag" draggable = "true">CSE 4610 Requirements Engineering</p></span>
+		   
+		   <span title="Pre-req CSE 3231 or CSE 3801" ><p class = "tech_drag" draggable = "true">CSE 4820 Wireless/Mobile Security</p></span>
+		   
+		   <span title="Pre-req CSE 3231 or CSE 3801" ><p class = "tech_drag" draggable = "true">CSE 4830 SW Reverse Engineering</p></span>
+		   
+		   <span title="Pre-req CSE 2010" ><p class = "tech_drag" draggable = "true">CSE 5210 Formal Langs & Automata Theory</p></span>
+		   
+		   
+		   <span title="Pre-req CSE 2010 or (ECE 2552, and ECE 3541)"><p class = "tech_drag" draggable = "true">CSE 521</p>1 Analysis of Algorithms</span>
+		   
+		   <span title="Pre-req CSE 2010 "> <p class = "tech_drag" draggable = "true">CSE 5231 Computer Networks</p></span>
+		   
+		   <span title="Pre-req CSE 2010"> <p class = "tech_drag" draggable = "true">CSE 5260 Database Systems</p></span>
+		   
+		   <span title="Pre-req CSE 2010"> <p class = "tech_drag" draggable = "true">CSE 5272 Comp and Info Security</p></span>
+		   
+		   <span title="Pre-req CSE 2010"> <p class = "tech_drag" draggable = "true">CSE 5290 Artificial Intelligence</p></span>
+		   
+		   
+		   
+		   
+		   
+			<p class ="tech_drag" draggable = "true">ECE 1551 Digital Logic</p>
+		   
+			<p class ="tech_drag" draggable = "true">ECE 2111 Circuit Theory 1</p>
+		   
+			<p class ="tech_drag" draggable = "true">ECE 2551 Soft/Hardware Design</p>
+		   
+			<p class ="tech_drag" draggable = "true">ECE 2551 Soft/Hardware Design</p>
+		   
+			<p class ="tech_drag" draggable = "true">ECE 2551 Soft/Hardware Design</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 2001 Calculus 3</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 2201 Diff Equat/Linear Algebra</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 2202 Linear Alg for Diff Equat</p>
+		   
+		   
+		   
+		   
+		   
+		   
+		   <span title="Pre-req MTH 1002 or MTH 1003 or MTH 1020 "> <p class = "tech_drag" draggable = "true">MTH 2401 Probability/Statistics</p></span>
+		   
+		   
+		   <span title="Pre-req MTH 1002 or MTH 1020 " ><p class = "tech_drag" draggable = "true">MTH 3102 Intro to Linear Algebra</p></span>
+		   
+		   
+		   
+		   
+		   
+		   
+			<p class ="tech_drag" draggable = "true">MTH 3107 Optimization</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 3200 Honors Differential EQ</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 3210 Intro to PDE & Apps</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 3312 Scientific Computing</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 4101 Introductory Analysis</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 4201 Models in Appld Math</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 4320 Neural Networks</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 4990 Undergraduate Research</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 5050 Special Topics</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 5051 Applied Discrete Mathematics</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 5102 Linear Algebra</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 5110 Real Analysis 1</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 5111 Real Analysis 2</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 5225 Linear Opt Models and Methods</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 5315 Num Meth for Partial Diff Equ</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 5320 Neural Networks</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 5411 Mathematical Statistics 1</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 5420 Theory Stochastic Process</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 6050 Res in Appld Mathematics</p>
+		   
+			<p class ="tech_drag" draggable = "true">MTH 6230 PDEs 2</p>
 			</div>
 
 
 			<div id="Hum" class="tabcontent">
 				<h1>Humanities Electives</h1>
-			<p class = "draggable" draggable="true"> HUM 1 </p>
-			<p class = "draggable" draggable="true"> HUM 2 </p>
-			<p class = "draggable" draggable="true"> HUM 3 </p>
+			<input id="searchbar_hum" onkeyup="search_courses_hum()" type="text" placeholder="Search Classes">
+			<span title = "Pre-req: COM 1102 "><p class = "hum_drag" draggable="true"> HUM 2141 World Art History 1 </p></span>
+			<span title = "Pre-req: COM 1102 "><p class = "hum_drag" draggable="true"> HUM 2211 British Lit & Culture </p> </span>
+			<span title = "Pre-req: COM None "><p class = "hum_drag" draggable="true">HUM 1010 Creative Arts Practicum </p> </span>
+			<span title = "Pre-req: COM 1102 "><p class = "hum_drag" draggable="true">	HUM 2051 Civ 1: Ancient-Medieval </p></span>
+			<span title = "Pre-req: COM 1102 "><p class = "hum_drag" draggable="true">	HUM 2052 Civ 2: Renaissance-Modern </p></span>
+			<span title = "Pre-req: COM 1102 "><p class = "hum_drag" draggable="true">HUM 2053 Intro to Asian Civ</p></span>
+			<span title = "Pre-req: COM 1102 "><p class = "hum_drag" draggable="true">HUM 2331 Amer Hist to Civil War</p></span>
+			<span title = "Pre-req: COM 1102 "><p class = "hum_drag" draggable="true">HUM 2332 Amer Hist Recons to Pres</p></span>
+			<span title = "Pre-req: COM 1102 "><p class = "hum_drag" draggable="true">HUM 2480 Intro to Political Science</p></span>
+			<span title = "Pre-req: COM 1102 "><p class = "hum_drag" draggable="true">HUM 2510 Logic</p></span>
+			<span title = "Pre-req: COM 1102 "><p class = "hum_drag" draggable="true">HUM 2551 Ancient/Mediev Philosophy</p></span>
+			<span title = "Pre-req: COM 1102 "><p class = "hum_drag" draggable="true">HUM 2552 Modern/Contemp Philosophy</p></span>
+			<span title = "Pre-req: COM 1102 "><p class = "hum_drag" draggable="true">HUM 2570 Bioethics</p></span>
+
 			</div>
 
 			<div id="3000Hum" class="tabcontent">
 				<h1>3000 HUM Electives</h1>
-			<p class = "draggable" draggable="true"> 3000HUM 1 </p>
-			<p class = "draggable" draggable="true"> 3000HUM 2 </p>
-			<p class = "draggable" draggable="true"> 3000HUM 3 </p>
+			<input id="searchbar_upperhum" onkeyup="search_courses_upperhum()" type="text" placeholder="Search Classes">
+			<span title = "Pre-req: Any 2000 HUM "><p class = "hum_drag" draggable="true"> HUM 3272 Serial Killers in Fiction</p></span>
+			<span title = "Pre-req: Any 2000 HUM"><p class = "hum_drag" draggable="true"> HUM 3273 Enviro Lit & Society</p> </span>
+			<span title = "Pre-req: Any 2000 HUM"><p class = "hum_drag" draggable="true">HUM 3334 History of Flight </p> </span>
+			<span title = "Pre-req: Any 2000 HUM "><p class = "hum_drag" draggable="true">HUM 3351 Hist of Sci: Anct & Mediev </p></span>
+			<span title = "Pre-req: Any 2000 HUM "><p class = "hum_drag" draggable="true">HUM 3401 Constitutional Law 1 </p></span>
+			<span title = "Pre-req: Any 2000 HUM "><p class = "hum_drag" draggable="true">HUM 3485 Spc Top in Social Science</p></span>
+			<span title = "Pre-req: Any 2000 HUM"><p class = "hum_drag" draggable="true">HUM 3571 Engineering Ethics</p></span>
+			<span title = "Pre-req: Any 2000 HUM "><p class = "hum_drag" draggable="true">HUM 3685 Special Topics in Law</p></span>
+			<span title = "Pre-req: Any 2000 HUM "><p class = "hum_drag" draggable="true">	HUM 3900 Intro to the Humanities</p></span>
+			<span title = "Pre-req: HUM 3905 "><p class = "hum_drag" draggable="true">HUM 3999 Capstone Research Methods</p></span>
+		   
 			</div>
 
 			<div id="3000CSE" class="tabcontent">
 				<h1>3000 CSE  Electives</h1>
-			<p class = "draggable" draggable="true"> 3000CSE 1 </p>
-			<p class = "draggable" draggable="true"> 3000CSE 2 </p>
-			<p class = "draggable" draggable="true"> 3000CSE 3 </p>
+			<input id="searchbar_cse" onkeyup="search_courses_cse()" type="text" placeholder="Search Classes">
+			<span title = "Pre-req: CSE 2010 and CSE 2120  "><p class = "cse_drag" draggable="true"> CSE 3120 Comp Arch and Assembly </p></span>
+			<span title = "Pre-req: CSE 2010 "><p class = "cse_drag" draggable="true"> CSE 3231 Computer Networks </p></span>
+			<span title = "Pre-req: MTH 2201 and MTH 3200 "><p class = "cse_drag" draggable="true"> CSE 3312 Scientific Computing </p></span>
+			<span title = "Pre-req: CSE 2010 "><p class = "cse_drag" draggable="true"> CSE 3801 Intro to Cyber Operations </p></span>
+			<span title = "Pre-req: CSE 2010 "><p class = "cse_drag" draggable="true"> CSE 4020 Database Systems </p></span>
+			<span title = "Pre-req: CSE 2010 or (ECE 2552, and ECE 3541) "><p class = "cse_drag" draggable="true"> CSE 4081 Intro Ana of Algorithms</p></span>
+			<span title = "Pre-req: CSE 2010 or ECE 2552  "><p class = "cse_drag" draggable="true"> CSE 4250 Prog Language Concepts</p></span>
+			<span title = "Pre-req: CSE 2010 or ECE 2552  "><p class = "cse_drag" draggable="true"> CSE 4301 Intro Art Intelligence</p></span>
+			<span title = "Pre-req: CSE 4410  "><p class = "cse_drag" draggable="true">CSE 4400 Independent Study in Comp</p></span>	
+			<span title = "Pre-req: CSE 3421 and CSE 4610  "><p class = "cse_drag" draggable="true">CSE 4410 Intro Soft Project Mgmt</p></span>	
+			<span title = "Pre-req: None "><p class = "cse_drag" draggable="true">CSE 4510 Spc Top in Comp Science</p></span>	
+			<span title = "Pre-req: CSE 2410 "><p class = "cse_drag" draggable="true">CSE 4610 Requirements Engineering</p></span>	
+			<span title = "Pre-req: CSE 3231 or CSE 3801 "><p class = "cse_drag" draggable="true">	CSE 4820 Wireless/Mobile Security</p></span>	
+			<span title = "Pre-req: CSE 3231 or CSE 3801"><p class = "cse_drag" draggable="true">CSE 4830 SW Reverse Engineering</p></span>	
+			<span title = "Pre-req: CSE 2010 "><p class = "cse_drag" draggable="true">CSE 5210 Formal Langs & Automata Theory</p></span>	
+			<span title = "Pre-req: CSE 2010 or (ECE 2552, and ECE 3541) "><p class = "cse_drag" draggable="true">	CSE 5211 Analysis of Algorithms</p></span>	
+			<span title = "Pre-req: CSE 2010 "><p class = "cse_drag" draggable="true">CSE 5231 Computer Networks</p></span>	
+			<span title = "Pre-req: CSE 2010 "><p class = "cse_drag" draggable="true">CSE 5260 Database Systems</p></span>	
+			<span title = "Pre-req: CSE 2010 "><p class = "cse_drag" draggable="true">CSE 5272 Comp and Info Security</p></span>	
+			<span title = "Pre-req: CSE 2010 "><p class = "cse_drag" draggable="true">CSE 5290 Artificial Intelligence</p></span>	
+			<span title = "Pre-req: None "><p class = "cse_drag" draggable="true">CSE 5400 Topics in CS</p></span>
+			<span title = "Pre-req: None "><p class = "cse_drag" draggable="true">CSE 5500 Computer Science Seminar</p></span>	
+			<span title = "Pre-req: None"><p class = "cse_drag" draggable="true">CSE 5501 CS Internship</p></span>	
+			<span title = "Pre-req: CSE 2010 "><p class = "cse_drag" draggable="true">CSE 5683 Advanced Computer Vision</p></span>	
+		   
 			</div>
 
 			<div id="Transfer" class="tabcontent">
 				<h1>Transfer Credits</h1>
-			<p class = "draggable" draggable="true"> TRANSFER 1 </p>
-			<p class = "draggable" draggable="true"> TRANSFER 2 </p>
-			<p class = "draggable" draggable="true"> TRANSFER 3 </p>
+				<input id="searchbar_transfer" onkeyup="search_courses_transfer()" type="text" placeholder="Search Classes">
+			<p class = "transfer_drag" draggable="true"> TRANSFER 1 </p>
+			<p class = "transfer_drag" draggable="true"> TRANSFER 2 </p>
+			<p class = "transfer_drag" draggable="true"> TRANSFER 3 </p>
 			</div>
 
 
 		</div>
 			
 			<div id = "printableArea">
-				<h2 style="text-align: center;">Classes Selected</h2>
-				<p style="text-align:center;">Major: <span id = "UMajor"></span> Catalog Year: <span id = "UCatyear"></span></p>
+				<h1 style="text-align: center;">Classes Selected</h1>
+				<p style="text-align:center;"> <strong>Major:</strong> <span id = "UMajor"></span> <strong>Catalog Year: </strong> <span id = "UCatyear"></span></p>
 		<div class = "non_year">
 			<h1>Senior</h1>
 				<div class = "semester">
-					<h1>Fall</h1>
+					<h2>Fall</h2>
 				</div>
 				<div class = "semester">
-					<h1>Spring</h1>
+					<h2>Spring</h2>
 				</div>
 				<div class = "semester">
-					<h1>Summer</h1>
+					<h2>Summer</h2>
 				</div>
 		</div>
 		<div class = "non_year">
 			<h1>Junior</h1>
 				<div class = "semester">
-					<h1>Fall</h1>
+					<h2>Fall</h2>
 				</div>
 				<div class = "semester">
-					<h1>Spring</h1>
+					<h2>Spring</h2>
 				</div>
 				<div class = "semester">
-					<h1>Summer</h1>
+					<h2>Summer</h2>
 				</div>
 		</div>
 		<div class = "non_year">
 			<h1>Sophomore</h1>
 				<div class = "semester">
-					<h1>Fall</h1>
+					<h2>Fall</h2>
 				</div>
 				<div class = "semester">
-					<h1>Spring</h1>
+					<h2>Spring</h2>
 				</div>
 				<div class = "semester">
-					<h1>Summer</h1>
+					<h2>Summer</h2>
 				</div>
 		</div>
 		<div class = "non_year">
 			<h1>Freshman</h1>
 				<div class = "semester">
-					<h1>Fall</h1>
+					<h2>Fall</h2>
 				</div>
 				<div class = "semester">
-					<h1>Spring</h1>
+					<h2>Spring</h2>
 				</div>
 				<div class = "semester">
-					<h1>Summer</h1>
+					<h2>Summer</h2>
 				</div>
 				
 		</div>

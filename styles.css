@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    width: 100vw;
+    height: 100vh;
 }
 .container {
     background-color: whitesmoke;
@@ -17,22 +19,130 @@ body {
     background-color: white;
     border: black;
     cursor: move;
+    border-radius: 15px;
 }
 
 .draggable.dragging {
     opacity: .5;
 }
+
+.rest_drag{
+    padding: 1rem;
+    background-color: white;
+    border: black;
+    cursor: move;
+    list-style: none;
+    border-radius: 15px;
+
+}
+
+.rest_drag.dragging {
+    opacity: .5;
+}
+
+
+.free_drag{
+    padding: 1rem;
+    background-color: white;
+    border: black;
+    cursor: move;
+    list-style: none;
+    border-radius: 15px;
+
+}
+
+.free_drag.dragging {
+    opacity: .5;
+}
+
+
+.tech_drag{
+    padding: 1rem;
+    background-color: white;
+    border: black;
+    cursor: move;
+    list-style: none;
+    border-radius: 15px;
+
+}
+
+.tech_drag.dragging {
+    opacity: .5;
+}
+
+.hum_drag{
+    padding: 1rem;
+    background-color: white;
+    border: black;
+    cursor: move;
+    border-radius: 15px;
+
+    list-style: none;
+}
+
+.hum_drag.dragging {
+    opacity: .5;
+}
+
+
+.upper_hum_drag{
+    padding: 1rem;
+    background-color: white;
+    border: black;
+    cursor: move;
+    list-style: none;
+    border-radius: 15px;
+
+}
+
+.upper_hum_drag.dragging {
+    opacity: .5;
+}
+
+
+.cse_drag{
+    padding: 1rem;
+    background-color: white;
+    border: black;
+    cursor: move;
+    list-style: none;
+    border-radius: 15px;
+
+}
+
+.cse_drag.dragging {
+    opacity: .5;
+}
+
+
+.transfer_drag{
+    padding: 1rem;
+    background-color: white;
+    border: black;
+    cursor: move;
+    list-style: none;
+    border-radius: 15px;
+
+}
+
+.transfer_drag.dragging {
+    opacity: .5;
+}
+
+
+
+
 h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:serif;
+    font-weight: 400;
+    /* font-style: oblique; */
+    text-align: center;
+}
+h2 {
+    font-family: serif;
     font-size: large;
     text-align: center;
     color: black;
-}
-h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 400;
-    font-style: oblique;
-    text-align: center;
 }
 .year {
     background-color: #333;
@@ -66,6 +176,8 @@ h3 {
     margin-top: 1rem;
     float:right;
     width: 150px;
+    border-radius: 15px;
+
 }
 /* button {
     position:absolute;
@@ -112,22 +224,30 @@ a.button{
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
+    border-radius: 15px;
+    padding: 12px;
+    margin: 5px;
+
   }
   
   /* Change background color of buttons on hover */
   .tab button:hover {
     background-color: #ddd;
+    border-radius: 15px;
+
   }
   
   /* Create an active/current tablink class */
   .tab button.active {
     background-color: #ccc;
+    border-radius: 15px;
+
   }
   
   /* Style the tab content */
   .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
+    border: whitesmoke;
     border-top: none;
   }
