@@ -1,0 +1,4607 @@
+[
+    {
+        "Course": "AEE 1201",
+        "Title": "Intro to Aerospace Engineering",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 2201",
+        "Title": "Aerospace Fundamentals",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 3083",
+        "Title": "Mech of Materials",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 3161",
+        "Title": "Fluid Mechanics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 3162",
+        "Title": "Compressible Flow",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 3261",
+        "Title": "Aerospace Experimentation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 4014",
+        "Title": "Control Systems",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 4262",
+        "Title": "Rockets & Mission Analysis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 4263",
+        "Title": "Space Flight Mechanics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 4284",
+        "Title": "Aero Eng Structures Lab",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 4291",
+        "Title": "Aero Eng Design 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 4807",
+        "Title": "Space Vehicle Control",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 5130",
+        "Title": "Viscous Flows",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 5150",
+        "Title": "Computnl Fluid Dynamics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 5190",
+        "Title": "Sel Tops Fluid Dynamics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 5480",
+        "Title": "Struct Dynamics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 5802",
+        "Title": "Multivar Feedback Control",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 5899",
+        "Title": "Final Semester Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 5900",
+        "Title": "Aerospace Eng Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 5997",
+        "Title": "Independent Study",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AEE 6999",
+        "Title": "Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AHF 1101",
+        "Title": "Aviation Psychology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AHF 3101",
+        "Title": "Intro to Human Factors",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AHF 3104",
+        "Title": "Human-Machine Systems",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AHF 5101",
+        "Title": "Human Fact in Man-Mach Systems",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AHF 5201",
+        "Title": "Human Performance 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AHF 5899",
+        "Title": "Final Semester Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AHF 5990",
+        "Title": "Directed Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AHF 5990",
+        "Title": "Directed Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AHF 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ASC 1005",
+        "Title": "Strategies for Success",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ASC 1051",
+        "Title": "Chemistry Review",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ASC 2000",
+        "Title": "Peer Leadership",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ASC 2001",
+        "Title": "Peer Tutoring Practicum",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 1000",
+        "Title": "Private Pilot Certificate",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 1001",
+        "Title": "Flight 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 1002",
+        "Title": "Flight 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 1003",
+        "Title": "Commercial Pilot Stage 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 2001",
+        "Title": "Flight 3",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 2002",
+        "Title": "Flight 4",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 2102",
+        "Title": "Flight 4 CP-AMEL",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 2103",
+        "Title": "CP-ASEL Add-on to CP-AMEL",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 3001",
+        "Title": "Flt Instructor-Airplane",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 3002",
+        "Title": "Flt Instructor-Instrument",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 3003",
+        "Title": "Student Teaching",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 3006",
+        "Title": "High Performance Airplane",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 3008",
+        "Title": "Aerobatic Flight",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 3009",
+        "Title": "Intermediate Aerobatic",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 3010",
+        "Title": "International Operations",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 3012",
+        "Title": "Conventional Gear",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 3101",
+        "Title": "CFI-ASEL Add-on to CFI-AMEL",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 4001",
+        "Title": "Multiengine Pilot",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 4002",
+        "Title": "Flt Inst Multiengine",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 4003",
+        "Title": "Air Taxi Flight Training",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 4006",
+        "Title": "Adv Multiengine Crew Ops",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 4090",
+        "Title": "Sp Topics in Flgt Trn",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVF 4102",
+        "Title": "Inital CFI in an AMEL",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 2",
+        "Title": "Final Program Examination",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 3201",
+        "Title": "Aviation Planning",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 3202",
+        "Title": "Airport Design",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 3303",
+        "Title": "Transportation Logistics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 4201",
+        "Title": "Aviation Adv Computer Appl",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 4202",
+        "Title": "Airport Terminal Development",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 4204",
+        "Title": "AutoCAD for Airport Environ",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 4204",
+        "Title": "AutoCAD for Airport Environ",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 4302",
+        "Title": "Aviation Law",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 4303",
+        "Title": "General Aviation Ops & Mgt",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 4501",
+        "Title": "Air Transportation Mgmt",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 4502",
+        "Title": "Avt Business Simulation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 4701",
+        "Title": "Airport Management",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 5000",
+        "Title": "Planning & Design Fund's",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 5103",
+        "Title": "Airport Operations",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 5105",
+        "Title": "Avt Plan and Analys Tech",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 5106",
+        "Title": "Corp Av Ops & Mgt",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 5107",
+        "Title": "Airline Management",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 5199",
+        "Title": "Adv Av Mgt Internship",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 5998",
+        "Title": "Adv Aviation Rsch Project",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVM 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 1201",
+        "Title": "Aviation Meteorology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 1201",
+        "Title": "Aviation Meteorology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 2101",
+        "Title": "Aviation Physical Science",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 2101",
+        "Title": "Aviation Physical Science",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 2102",
+        "Title": "Aerodynamics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 3201",
+        "Title": "Aviation Meteorology 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 4000",
+        "Title": "Aviation Physiology Lab",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 4201",
+        "Title": "Flight Observation Lab",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 4202",
+        "Title": "Unmanned Aerial Sys",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 4302",
+        "Title": "Fund of Av Safety Sys",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 4304",
+        "Title": "Aviation Security",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 4999",
+        "Title": "Aviation Systems Safety",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 5201",
+        "Title": "Avt Mete Thry and Pract",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 5203",
+        "Title": "Imp of Avt on Hum Physiology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 5204",
+        "Title": "Aviation Safety Analysis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 5205",
+        "Title": "Aviation Statistics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 5207",
+        "Title": "Aviation Safety Mgmt Sys",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 5208",
+        "Title": "Adv Av Safety Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 5430",
+        "Title": "Statgc Anlys in Aviation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 6000",
+        "Title": "Quant Res in Aviation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 6301",
+        "Title": "Fund of Rsrch in Aviation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 6302",
+        "Title": "Research & Statistics 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 6304",
+        "Title": "Survey & Qual Rsrch Mthds",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 6900",
+        "Title": "Research Practicum",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 6995",
+        "Title": "Research in Aviation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVS 6999",
+        "Title": "Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 2",
+        "Title": "Final Program Examination",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 1001",
+        "Title": "Aeronautics 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 1002",
+        "Title": "Aeronautics 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 1002",
+        "Title": "Aeronautics 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 1200",
+        "Title": "Intro to Aircraft Systems",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 2001",
+        "Title": "Aeronautics 3",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 2002",
+        "Title": "Aeronautics 4",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 2201",
+        "Title": "National Airspace System",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 2303",
+        "Title": "Aviation Career Planning",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 3101",
+        "Title": "Instructional Tech",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 3203",
+        "Title": "Air Traffic Control 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 3501",
+        "Title": "Spc Topics in Aviation Tech",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 4002",
+        "Title": "Aviation Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 4002",
+        "Title": "Aviation Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 4201",
+        "Title": "Advanced Aircraft Systems",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 4202",
+        "Title": "Adv Aircraft Operations",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 4203",
+        "Title": "Airline Operations",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 4301",
+        "Title": "Aviation Safety",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 5201",
+        "Title": "Urban Air Mobility",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 5301",
+        "Title": "Complex Avt Systems",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "AVT 5302",
+        "Title": "Avt Accident Invest",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5020",
+        "Title": "Current Topics in BA",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5021",
+        "Title": "Coordinating BA",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5022",
+        "Title": "Measurement in BA",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5029",
+        "Title": "Capstone PBA 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5041",
+        "Title": "Concept & Princip of BA",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5043",
+        "Title": "Measure & Experiment Design",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5044",
+        "Title": "Ethics for BA 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5045",
+        "Title": "Ethics for BA 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5047",
+        "Title": "Assessment & Intervention",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5048",
+        "Title": "Skill Acquis & Perf Imprv",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5049",
+        "Title": "Procedure for Beh Reduct",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5050",
+        "Title": "Supervision & Mgmt",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5060",
+        "Title": "App Experience in BA 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5061",
+        "Title": "App Experience in BA 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5062",
+        "Title": "App Experience in BA 3",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5063",
+        "Title": "App Experience in BA 4",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5071",
+        "Title": "Current Topics in BA 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5101",
+        "Title": "Beh & Functional Assess",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5102",
+        "Title": "Exp Eval of Interventions",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5106",
+        "Title": "Beh Pharmacology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5251",
+        "Title": "Practical Training in BA",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5261",
+        "Title": "Supervised Fieldwork 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5262",
+        "Title": "Supervised Fieldwork 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5303",
+        "Title": "Exp Analysis of Behavior",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5403",
+        "Title": "Training & Development",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5503",
+        "Title": "Sem in Education Beh Analysis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5504",
+        "Title": "Seminar in Clin Beh",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5899",
+        "Title": "Final Semester Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5899",
+        "Title": "Final Semester Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5901",
+        "Title": "Graduate Research in BA",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 6301",
+        "Title": "Apps of Beh Analys to Coll Ins",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 6800",
+        "Title": "Supervised Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 6899",
+        "Title": "Final Semester Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BEH 6999",
+        "Title": "Dissertation in Beh Analysis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 2",
+        "Title": "Final Program Examination",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 1010",
+        "Title": "Biological Discovery 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 1030",
+        "Title": "Introduction to Biotechnology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 1040",
+        "Title": "Intro Biodiv and Phys",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 2110",
+        "Title": "General Genetics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 2112",
+        "Title": "General Genetics Lab",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 3201",
+        "Title": "Anatomy &  Physiology 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 4010",
+        "Title": "Biochemistry 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 4011",
+        "Title": "Biochemistry 1 Lecture",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 4120",
+        "Title": "Genetic Engr Techniques",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 4150",
+        "Title": "Special Topics Molecular Bio",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 4301",
+        "Title": "Advanced Cell Biology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 4305",
+        "Title": "Molecular Basis of Disease",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 4990",
+        "Title": "Biology Forum",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 4991",
+        "Title": "Undergrad Research 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 4992",
+        "Title": "Undergrad Research 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 4993",
+        "Title": "Undergrad Research 3",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 4994",
+        "Title": "Undergraduate Research 4",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 5016",
+        "Title": "Laboratory Methods",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 5210",
+        "Title": "Applied Physiology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 5537",
+        "Title": "Applied Biotech",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 5573",
+        "Title": "Scientific Skills",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 5576",
+        "Title": "Molecular Genetics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 5990",
+        "Title": "Biological Sciences Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 5995",
+        "Title": "Biological Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 5997",
+        "Title": "Industrial Internship",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BIO 6999",
+        "Title": "Dissertation in Biological Sci",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 2",
+        "Title": "Final Program Examination",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 1045",
+        "Title": "Intro to Biomed Engr",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 3030",
+        "Title": "Biofluid Mechanics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 3081",
+        "Title": "Biomechanics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 3240",
+        "Title": "Comp Meth for Bio Sys",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 3261",
+        "Title": "Biomech & Biomats Lab",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 4050",
+        "Title": "Special Topics in BME",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 4292",
+        "Title": "Biomed Engr Design 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 4300",
+        "Title": "Independent Study in BME",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 4370",
+        "Title": "Biomed Control Systems",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 4410",
+        "Title": "Intro Biomedical Imaging",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 4444",
+        "Title": "Neuroengineering",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 5259",
+        "Title": "Medical Imaging",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 5720",
+        "Title": "Biomed Instrumentation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 5780",
+        "Title": "BME Analysis 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 5790",
+        "Title": "Selected Topics Biomed Eng",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 5900",
+        "Title": "BME Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 6990",
+        "Title": "Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BME 6999",
+        "Title": "Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 2",
+        "Title": "Final Program Examination",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 1301",
+        "Title": "Basic Economics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 1501",
+        "Title": "Foundations in CIE 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 1710",
+        "Title": "Found of Bus Analytics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 1801",
+        "Title": "Global Bus Perspectives",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 2211",
+        "Title": "Intro to Financial Acctg",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 2212",
+        "Title": "Intro to Managerial Acct",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 2303",
+        "Title": "Macroeconomics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 2601",
+        "Title": "Legal & Social Env of Bus",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 2601",
+        "Title": "Legal & Social Env of Bus",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 2703",
+        "Title": "Business Statistics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3208",
+        "Title": "Fed Income Tax 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3211",
+        "Title": "Intermediate Accounting 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3214",
+        "Title": "Accounting Info Systems",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3304",
+        "Title": "Sports Economics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3401",
+        "Title": "Corporate Finance",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3501",
+        "Title": "Management Principles",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3503",
+        "Title": "Human Resource Management",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3504",
+        "Title": "Management Information Systems",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3509",
+        "Title": "Intro to Sports Mgmt",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3511",
+        "Title": "Sys Analysis/Design",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3514",
+        "Title": "Intro to OS & Ntwk for Bu",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3601",
+        "Title": "Marketing Principles",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3601",
+        "Title": "Marketing Principles",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3603",
+        "Title": "Advertising & Promotion Mgmt",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3607",
+        "Title": "Mrktg Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3611",
+        "Title": "Ent & Sprts Mrktg",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3704",
+        "Title": "Quantitative Methods",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3801",
+        "Title": "Cross-cultural Management",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 3805",
+        "Title": "Emerging Mrkts Strategies",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4220",
+        "Title": "Intl Accounting & Reporting",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4284",
+        "Title": "Accounting Practicum",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4401",
+        "Title": "Investment Analysis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4426",
+        "Title": "Environ and Resource Econ",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4501",
+        "Title": "Production/Operations Mgmt",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4502",
+        "Title": "Org Behavior and Theory",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4504",
+        "Title": "Spc Topics in Management",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4520",
+        "Title": "Leadership Theory & Pract",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4701",
+        "Title": "International Business",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4702",
+        "Title": "Bus Strategy and Policy",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4702",
+        "Title": "Bus Strategy and Policy",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4783",
+        "Title": "Practicum Planning",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4786",
+        "Title": "Major Field Practicum",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4787",
+        "Title": "Business Practicum",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4788",
+        "Title": "Business Plan Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4790",
+        "Title": "Directed Business Study",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5070",
+        "Title": "Special Topics in Business",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5413",
+        "Title": "Data Analytics and BI",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5421",
+        "Title": "Managerial Economics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5426",
+        "Title": "Enviro & Resource Economics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5431",
+        "Title": "Managerial Accounting",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5433",
+        "Title": "Adv Prob & Current Topics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5435",
+        "Title": "Tax & Fin Acct Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5440",
+        "Title": "Financial Management",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5450",
+        "Title": "Organizational Behavior",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5457",
+        "Title": "Negotiation & Conflict Resolut",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5458",
+        "Title": "Leadership Theory & Effect Mgt",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5461",
+        "Title": "Production & Oper Mgmt",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5480",
+        "Title": "Strategic Management",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5486",
+        "Title": "International Business",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5601",
+        "Title": "Essentials of Bus Devel 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5644",
+        "Title": "Intl Acct & Reporting",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5656",
+        "Title": "Consumer Behavior Str",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5661",
+        "Title": "Strategic Proj Mgmt",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 6030",
+        "Title": "DBA Intro & Orient",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 6031",
+        "Title": "Issues in Strat Mgmt",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 6032",
+        "Title": "Org Beh/Ethics/Ldrshp in Bus",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 6037",
+        "Title": "Financial Bus Analysis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 6990",
+        "Title": "Research Methods 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 6992",
+        "Title": "Special Topics Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 6999",
+        "Title": "Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4701",
+        "Title": "International Business",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4702",
+        "Title": "Bus Strategy and Policy",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4783",
+        "Title": "Practicum Planning",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4786",
+        "Title": "Major Field Practicum",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4787",
+        "Title": "Business Practicum",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4788",
+        "Title": "Business Plan Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 4790",
+        "Title": "Directed Business Study",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5070",
+        "Title": "Special Topics in Business",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5413",
+        "Title": "Data Analytics and BI",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5421",
+        "Title": "Managerial Economics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5426",
+        "Title": "Enviro & Resource Economics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5431",
+        "Title": "Managerial Accounting",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5433",
+        "Title": "Adv Prob & Current Topics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5435",
+        "Title": "Tax & Fin Acct Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5440",
+        "Title": "Financial Management",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5450",
+        "Title": "Organizational Behavior",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5450",
+        "Title": "Organizational Behavior",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5457",
+        "Title": "Negotiation & Conflict Resolut",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5458",
+        "Title": "Leadership Theory & Effect Mgt",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5461",
+        "Title": "Production & Oper Mgmt",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5480",
+        "Title": "Strategic Management",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5486",
+        "Title": "International Business",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5601",
+        "Title": "Essentials of Bus Devel 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5644",
+        "Title": "Intl Acct & Reporting",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5656",
+        "Title": "Consumer Behavior Str",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 5661",
+        "Title": "Strategic Proj Mgmt",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 6030",
+        "Title": "DBA Intro & Orient",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 6031",
+        "Title": "Issues in Strat Mgmt",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 6032",
+        "Title": "Org Beh/Ethics/Ldrshp in Bus",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 6037",
+        "Title": "Financial Bus Analysis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 6990",
+        "Title": "Research Methods 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 6992",
+        "Title": "Special Topics Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUS 6999",
+        "Title": "Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "BUSA 2303",
+        "Title": "Macroeconomics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 1101",
+        "Title": "Intro to Chemical Eng",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 2101",
+        "Title": "Chem Proc Principles 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 3101",
+        "Title": "Transport Processes",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 3115",
+        "Title": "CHE Processes Lab 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 3115",
+        "Title": "CHE Processes Lab 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 3170",
+        "Title": "Intro to Environmental Eng",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 3260",
+        "Title": "Materials",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 3265",
+        "Title": "Materials Laboratory",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 4122",
+        "Title": "Chemical Process Control",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 4131",
+        "Title": "Separation Processes",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 4151",
+        "Title": "Chemical Eng Reactor Design",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 4181",
+        "Title": "Chm Engr Plant Design 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 4291",
+        "Title": "Independent Study 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 4292",
+        "Title": "Independent Study 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 4563",
+        "Title": "Materials Character Lab",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 5100",
+        "Title": "Chem Engr Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 5110",
+        "Title": "Equilibrium Thermodynamics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 5563",
+        "Title": "Materials Charact Lab",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 5899",
+        "Title": "Final Semester Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 5998",
+        "Title": "Graduate Project in CHE",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 5999",
+        "Title": "Thesis in Chem Engr",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 6990",
+        "Title": "Research in Chem Eng",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHE 6999",
+        "Title": "Dissertation in Chem Eng",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 1101",
+        "Title": "General Chemistry 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 1102",
+        "Title": "General Chemistry 2",
+        "Pre-req": "CHM 1101 and (MTH 1000 or MTH 1001)"
+    },
+    {
+        "Course": "CHM 1111",
+        "Title": "General Chemistry Lab 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 1112",
+        "Title": "General Chemistry Lab 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 2001",
+        "Title": "Organic Chemistry 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 2002",
+        "Title": "Organic Chemistry 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 2011",
+        "Title": "Organic Chemistry Lab 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 2012",
+        "Title": "Organic Chemistry Lab 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 3001",
+        "Title": "Physical Chemistry 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 3011",
+        "Title": "Physical Chem Laboratory 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 3301",
+        "Title": "Analytical Chemistry 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 3311",
+        "Title": "Analytical Chem Lab 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 4001",
+        "Title": "Inorganic Chemistry 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 4111",
+        "Title": "Adv Physical Chemistry",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 4500",
+        "Title": "Advanced Organic Chemistry",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 4800",
+        "Title": "Undergraduate Research 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 4801",
+        "Title": "Undergraduate Research 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 4900",
+        "Title": "Chemistry Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 4901",
+        "Title": "Senior Research Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 4910",
+        "Title": "Senior Thesis in Chem 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 5095",
+        "Title": "Chemical Research Projects",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 5111",
+        "Title": "Adv Physical Chemistry",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 5201",
+        "Title": "Green Chemistry",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 5305",
+        "Title": "Spc Top Analytical Chem",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 5500",
+        "Title": "Adv Organic Chemistry",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 5503",
+        "Title": "Organic Synthesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 5900",
+        "Title": "Chemistry Graduate Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 5901",
+        "Title": "Chemistry Thesis Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 5999",
+        "Title": "Thesis in Chemistry",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 6095",
+        "Title": "Chemical Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 6899",
+        "Title": "Final Semester Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CHM 6999",
+        "Title": "Dissertation in Chemistry",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CIS 5100",
+        "Title": "Data Structures & Program",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CIS 5200",
+        "Title": "Advanced Programming",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CIS 5210",
+        "Title": "Int of Database Sys",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CIS 5240",
+        "Title": "Intro to Computer Systems",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 1010",
+        "Title": "Media Practicum",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 1101",
+        "Title": "Composition and Rhetoric",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 1102",
+        "Title": "Writing About Literature",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 2012",
+        "Title": "Research Sources and Syst",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 2223",
+        "Title": "Sci/Tech Comm",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "COM 2224",
+        "Title": "Bus/Prof Wrtg",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 2225",
+        "Title": "Writing for Media",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 2370",
+        "Title": "Speech",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 2425",
+        "Title": "Intro to Communication",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 2503",
+        "Title": "Photography",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 3070",
+        "Title": "Prof Comm for Execs",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 3231",
+        "Title": "Writing About Science",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 3440",
+        "Title": "Public Relations",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 4050",
+        "Title": "Independent Study",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 4090",
+        "Title": "Communication Internship",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 4130",
+        "Title": "Global Communication",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 4220",
+        "Title": "Writing Proposals",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 4302",
+        "Title": "Media Production-Video",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 5100",
+        "Title": "Communication Theory",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 5130",
+        "Title": "Global Communication",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 5250",
+        "Title": "Public Relations",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 5430",
+        "Title": "Independent Study",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 5440",
+        "Title": "Communication Internship",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 5510",
+        "Title": "Covering Science and Tech",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 5520",
+        "Title": "Proposal Writing",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 5990",
+        "Title": "Design Project",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 5990",
+        "Title": "Design Project",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "COM 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CON 1005",
+        "Title": "Construction Plans & BIM",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CON 2000",
+        "Title": "Statics & Mechanics/Construct",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CON 2001",
+        "Title": "Construction Methods",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CON 4000",
+        "Title": "Construction Controls",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CON 4001",
+        "Title": "Electrical Systems",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CON 4003",
+        "Title": "Construction Estimating",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CON 4005",
+        "Title": "Construction Safety",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CON 4091",
+        "Title": "Const Project Proposal",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CON 5000",
+        "Title": "Adv Construction Control",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CON 5001",
+        "Title": "Adv Bldg Electrical Sys",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CON 5005",
+        "Title": "Adv Construction Safety",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CSE 1001",
+        "Title": "Fund of Software Dev 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CSE 1002",
+        "Title": "Fund of Software Dev 2",
+        "Pre-req": "CSE 1001 "
+    },
+    {
+        "Course": "CSE 1100",
+        "Title": "Intro Programming Concepts",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CSE 1101",
+        "Title": "Comp Discip & Careers 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CSE 1301",
+        "Title": "Intro to Comp Applications",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CSE 1400",
+        "Title": "Applied Discrete Mathematics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CSE 1502",
+        "Title": "Intro Sftwr Dev w/C++",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CSE 2010",
+        "Title": "Algorithms & Data Struct",
+        "Pre-req": "CSE 1002, and (CSE 1400 or MTH 2051)"
+    },
+    {
+        "Course": "CSE 2050",
+        "Title": "Program in a Second Lang",
+        "Pre-req": "CSE 2010  "
+    },
+    {
+        "Course": "CSE 2120",
+        "Title": "Comp Org Machine Prog",
+        "Pre-req": "CSE 1001 "
+    },
+    {
+        "Course": "CSE 2410",
+        "Title": "Intro to Software Eng",
+        "Pre-req": "CSE 2010 or ECE 2552 "
+    },
+    {
+        "Course": "CSE 3100",
+        "Title": "Junior Project",
+        "Pre-req": "CSE 2010 "
+    },
+    {
+        "Course": "CSE 3120",
+        "Title": "Comp Arch and Assembly",
+        "Pre-req": "CSE 2010 and CSE 2120 "
+    },
+    {
+        "Course": "CSE 3231",
+        "Title": "Computer Networks",
+        "Pre-req": "CSE 2010 "
+    },
+    {
+        "Course": "CSE 3312",
+        "Title": "Scientific Computing",
+        "Pre-req": "MTH 2201 and MTH 3200"
+    },
+    {
+        "Course": "CSE 3411",
+        "Title": "Software Testing 1",
+        "Pre-req": "CSE 2410 or ECE 2552 or ECE 3541"
+    },
+    {
+        "Course": "CSE 3801",
+        "Title": "Intro to Cyber Operations",
+        "Pre-req": "CSE 2010 "
+    },
+    {
+        "Course": "CSE 4001",
+        "Title": "Opr Systems Concepts",
+        "Pre-req": "(CSE 2010 and CSE 2120) or ECE 2552 "
+    },
+    {
+        "Course": "CSE 4020",
+        "Title": "Database Systems",
+        "Pre-req": "CSE 2010"
+    },
+    {
+        "Course": "CSE 4081",
+        "Title": "Intro Ana of Algorithms",
+        "Pre-req": "CSE 2010 or (ECE 2552, and ECE 3541)"
+    },
+    {
+        "Course": "CSE 4083",
+        "Title": "Formal Lang/Auto Th",
+        "Pre-req": "CSE 2010 or (ECE 2552, and ECE 3541)"
+    },
+    {
+        "Course": "CSE 4101",
+        "Title": "Computer Science Proj 1",
+        "Pre-req": "CSE 2410 and CSE 3100 "
+    },
+    {
+        "Course": "CSE 4102",
+        "Title": "Computer Science Proj 2",
+        "Pre-req": "CSE 4101 "
+    },
+    {
+        "Course": "CSE 4201",
+        "Title": "Software Devel Proj 1",
+        "Pre-req": "CSE 2410 and CSE 3100 "
+    },
+    {
+        "Course": "CSE 4202",
+        "Title": "Software Devel Proj 2",
+        "Pre-req": "CSE 4201"
+    },
+    {
+        "Course": "CSE 4250",
+        "Title": "Prog Language Concepts",
+        "Pre-req": "CSE 2010 or ECE 2552 "
+    },
+    {
+        "Course": "CSE 4301",
+        "Title": "Intro Art Intelligence",
+        "Pre-req": "CSE 2010 or ECE 2552 "
+    },
+    {
+        "Course": "CSE 4400",
+        "Title": "Independent Study in Comp",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CSE 4410",
+        "Title": "Intro Soft Project Mgmt",
+        "Pre-req": "CSE 3421 and CSE 4610"
+    },
+    {
+        "Course": "CSE 4510",
+        "Title": "Spc Top in Comp Science",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CSE 4610",
+        "Title": "Requirements Engineering",
+        "Pre-req": "CSE 2410"
+    },
+    {
+        "Course": "CSE 4820",
+        "Title": "Wireless/Mobile Security",
+        "Pre-req": "CSE 3231 or CSE 3801"
+    },
+    {
+        "Course": "CSE 4830",
+        "Title": "SW Reverse Engineering",
+        "Pre-req": "CSE 3231 or CSE 3801"
+    },
+    {
+        "Course": "CSE 5210",
+        "Title": "Formal Langs & Automata Theory",
+        "Pre-req": "CSE 2010"
+    },
+    {
+        "Course": "CSE 5211",
+        "Title": "Analysis of Algorithms",
+        "Pre-req": "CSE 2010 or (ECE 2552, and ECE 3541)"
+    },
+    {
+        "Course": "CSE 5231",
+        "Title": "Computer Networks",
+        "Pre-req": "CSE 2010 "
+    },
+    {
+        "Course": "CSE 5260",
+        "Title": "Database Systems",
+        "Pre-req": "CSE 2010"
+    },
+    {
+        "Course": "CSE 5272",
+        "Title": "Comp and Info Security",
+        "Pre-req": "CSE 2010"
+    },
+    {
+        "Course": "CSE 5290",
+        "Title": "Artificial Intelligence",
+        "Pre-req": "CSE 2010"
+    },
+    {
+        "Course": "CSE 5400",
+        "Title": "Topics in CS",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CSE 5500",
+        "Title": "Computer Science Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CSE 5501",
+        "Title": "CS Internship",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CSE 5683",
+        "Title": "Advanced Computer Vision",
+        "Pre-req": "CSE 2010"
+    },
+    {
+        "Course": "CSE 5694",
+        "Title": "Robotics & AI",
+        "Pre-req": "CSE 5290"
+    },
+    {
+        "Course": "CSE 5801",
+        "Title": "Independent Research CS",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CSE 5802",
+        "Title": "Research Projects in CS",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CSE 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CSE 6899",
+        "Title": "Final Semester Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CSE 6990",
+        "Title": "Research in CS",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CSE 6999",
+        "Title": "Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 1000",
+        "Title": "Intro to Civil Engr",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 1001",
+        "Title": "Computer Applications Lab",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 3012",
+        "Title": "Engineering Materials",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 3013",
+        "Title": "Civ Eng Matls Lab",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 3015",
+        "Title": "Struct Ana and Design",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 3030",
+        "Title": "Fluid Mechanics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 3033",
+        "Title": "Hydraulics Lab",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 4000",
+        "Title": "Engr Econ and Planning",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 4016",
+        "Title": "Reinforced Conc Structures",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 4020",
+        "Title": "Foundation Design",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 4060",
+        "Title": "Transportation Engrng",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 4070",
+        "Title": "Construction Engrng",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 4073",
+        "Title": "Construction Cost Eng",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 4090",
+        "Title": "Sel Top in Civil Engr",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 4091",
+        "Title": "Design Project 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 4092",
+        "Title": "Design Project 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 4095",
+        "Title": "Independent Study",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 5014",
+        "Title": "Advanced Steel Design",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 5025",
+        "Title": "Foundation Design",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 5062",
+        "Title": "Stat Econ Methods",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 5073",
+        "Title": "Construction Cost Eng",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 5080",
+        "Title": "Sel Top in Civil Engr",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 6991",
+        "Title": "Res in Civil Engr",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CVE 6999",
+        "Title": "Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CWE 1001",
+        "Title": "Co-op Ed/Internship Exp 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CWE 2001",
+        "Title": "Co-op Ed/Internship Exp 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CWE 3001",
+        "Title": "Cooperative Education 3",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CWE 3003",
+        "Title": "Engineering Coop Ed",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CWE 4001",
+        "Title": "Co-op Ed/Internship Exp 4",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CWE 5000",
+        "Title": "Graduate Co-op/Internship Exp",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CYB 5272",
+        "Title": "Comp and Info Security",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CYB 5280",
+        "Title": "Host & App Security",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CYB 5677",
+        "Title": "Biometric Authentication",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CYB 5998",
+        "Title": "Capstone Info Assurance",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "CYB 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 1551",
+        "Title": "Digital Logic",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 2111",
+        "Title": "Circuit Theory 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 2551",
+        "Title": "Soft/Hardware Design",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 2551",
+        "Title": "Soft/Hardware Design",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 2551",
+        "Title": "Soft/Hardware Design",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 3111",
+        "Title": "Electronics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 3222",
+        "Title": "Signals and Systems",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 3441",
+        "Title": "Electromagnetic Fields",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 3541",
+        "Title": "Digital State Machines",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 3551",
+        "Title": "Microcomputer Systems 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 3553",
+        "Title": "Multifarious Systems 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 4224",
+        "Title": "Communications Lab",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 4231",
+        "Title": "Control Systems",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 4241",
+        "Title": "System Design 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 4333",
+        "Title": "Lightwave Laboratory",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 4342",
+        "Title": "Virtual Instrument Lab",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 4551",
+        "Title": "Computer Architecture",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 4991",
+        "Title": "Elec & Electronic Circuits",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 5111",
+        "Title": "Radio Frequency Propagation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 5201",
+        "Title": "Linear Systems 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 5234",
+        "Title": "Communications Theory",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 5245",
+        "Title": "Digital Signal Process 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 5258",
+        "Title": "Pattern Recognition",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 5351",
+        "Title": "Fiberoptic Comm Systems",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 5418",
+        "Title": "Fld Thry Guided Waves 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 5527",
+        "Title": "Search & Decoding in SR",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 6899",
+        "Title": "Final Semester Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ECE 6999",
+        "Title": "Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "EDS 2",
+        "Title": "Final Program Examination",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "EDS 1031",
+        "Title": "Survey of Sci 1: Phys Sci",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "EDS 5081",
+        "Title": "Research 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "EDS 5095",
+        "Title": "Essentials of Ed Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "EDS 5430",
+        "Title": "Envir Prob & Issue Invest",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "EDS 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "EDS 6000",
+        "Title": "Readings in Ed Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "EDS 6070",
+        "Title": "Statistics for Ed Resch",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "EDS 6095",
+        "Title": "Res in STEM Education",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "EDS 6999",
+        "Title": "Dissertation in STEM Education",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "EGN 1000",
+        "Title": "Intro to Engineering",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENM 4100",
+        "Title": "Quality Engineering",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENM 4200",
+        "Title": "Project Engineering",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENM 5100",
+        "Title": "Quality Engineering",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENM 5200",
+        "Title": "Project Engineering",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENM 5330",
+        "Title": "Engr Operations & Logistics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENM 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENS 2",
+        "Title": "Final Program Examination",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENS 1001",
+        "Title": "The Whole Earth Course",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENS 3101",
+        "Title": "Atmospheric Environments",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENS 4700",
+        "Title": "Environmental Hydrology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENS 4901",
+        "Title": "Spc Top in Enviro Sci",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENS 4903",
+        "Title": "Spc Top in Enviro Sci",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENS 4911",
+        "Title": "Enviro Field Projects 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENS 4912",
+        "Title": "Enviro Field Projects 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENS 5000",
+        "Title": "Enviro Science Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENS 5009",
+        "Title": "Internship",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENS 5101",
+        "Title": "Intro to Air Pollution",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENS 5700",
+        "Title": "Intro to Water Resources",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENS 5901",
+        "Title": "Special Topics in ENS",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENS 5995",
+        "Title": "Enviro Science Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENS 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENS 6993",
+        "Title": "Research in Enviro Sci",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ENS 6999",
+        "Title": "Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ESL 342",
+        "Title": "Intensive Oral Communication",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ESL 343",
+        "Title": "Intensive Listening Comp",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ESL 344",
+        "Title": "Intensive Reading",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "FTE 5701",
+        "Title": "Performance FTE",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "FTE 5706",
+        "Title": "Propulsion Testing",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "FTE 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "FYE 1000",
+        "Title": "University Experience",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "HCD 2",
+        "Title": "Final Program Examination",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "HCD 5210",
+        "Title": "Introduction to HCD",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "HCD 6860",
+        "Title": "Modeling and Simulation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "HCD 6999",
+        "Title": "Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "HON 2000",
+        "Title": "Honors Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "HON 4991",
+        "Title": "Honors Research Exp 3",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "HUM 1010",
+        "Title": "Creative Arts Practicum",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "HUM 2051",
+        "Title": "Civ 1: Ancient-Medieval",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2052",
+        "Title": "Civ 2: Renaissance-Modern",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2053",
+        "Title": "Intro to Asian Civ",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2141",
+        "Title": "World Art History 1",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2211",
+        "Title": "British Lit & Culture",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2331",
+        "Title": "Amer Hist to Civil War",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2332",
+        "Title": "Amer Hist Recons to Pres",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2480",
+        "Title": "Intro to Political Science",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2510",
+        "Title": "Logic",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2551",
+        "Title": "Ancient/Mediev Philosophy",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2552",
+        "Title": "Modern/Contemp Philosophy",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2570",
+        "Title": "Bioethics",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 3272",
+        "Title": "Serial Killers in Fiction",
+        "Pre-req": "Any 2000 HUM"
+    },
+    {
+        "Course": "HUM 3273",
+        "Title": "Enviro Lit & Society",
+        "Pre-req": "Any 2000 HUM"
+    },
+    {
+        "Course": "HUM 3334",
+        "Title": "History of Flight",
+        "Pre-req": "Any 2000 HUM"
+    },
+    {
+        "Course": "HUM 3351",
+        "Title": "Hist of Sci: Anct & Mediev",
+        "Pre-req": "Any 2000 HUM"
+    },
+    {
+        "Course": "HUM 3401",
+        "Title": "Constitutional Law 1",
+        "Pre-req": "Any 2000 HUM"
+    },
+    {
+        "Course": "HUM 3485",
+        "Title": "Spc Top in Social Science",
+        "Pre-req": "Any 2000 HUM"
+    },
+    {
+        "Course": "HUM 3571",
+        "Title": "Engineering Ethics",
+        "Pre-req": "Any 2000 HUM"
+    },
+    {
+        "Course": "HUM 3685",
+        "Title": "Special Topics in Law",
+        "Pre-req": "Any 2000 HUM"
+    },
+    {
+        "Course": "HUM 3900",
+        "Title": "Intro to the Humanities",
+        "Pre-req": "Any 2000 HUM"
+    },
+    {
+        "Course": "HUM 3999",
+        "Title": "Capstone Research Methods",
+        "Pre-req": "HUM 3905"
+    },
+    {
+        "Course": "LNG 1101",
+        "Title": "Elementary French 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "LNG 1301",
+        "Title": "Elementary Spanish 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "LNG 1302",
+        "Title": "Elementary Spanish 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "LNG 1401",
+        "Title": "Elementary Japanese 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "LNG 1601",
+        "Title": "Elementary Italian 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "LNG 1701",
+        "Title": "Chinese Lang & Culture 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "LNG 2101",
+        "Title": "Intermediate French 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "LNG 2301",
+        "Title": "Intermediate Spanish 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "LNGA 1101",
+        "Title": "Elementary French I",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "LNGA 2301",
+        "Title": "Intermediate Spanish 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 1024",
+        "Title": "Intro to Mech Eng",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 2024",
+        "Title": "Solids Modeling",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 2081",
+        "Title": "Appld Mech: Statics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 2082",
+        "Title": "Appld Mech: Dynamics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 3090",
+        "Title": "Dsgn Machine Elements",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 3191",
+        "Title": "Engr Thermodynamics 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 3192",
+        "Title": "Engr Thermodynamics 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 4024",
+        "Title": "Mech Vibrations",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 4071",
+        "Title": "Thermal Systems Design",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 4074",
+        "Title": "Heat Transfer Laboratory",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 4171",
+        "Title": "Princ of Heat Transfer",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 4175",
+        "Title": "HVAC",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 4193",
+        "Title": "Mech Eng Dsgn 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 4630",
+        "Title": "Modeling Dynamic Systems",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 5230",
+        "Title": "Radiation Heat Transfer",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 5270",
+        "Title": "Thermal Mgmt Elec Sys",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 5552",
+        "Title": "Design for Manufacturing",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 5555",
+        "Title": "Principles of Eng Des Opt",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 5630",
+        "Title": "Model Dynamic Systems",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 5693",
+        "Title": "Intelligent Optimal Control",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 5900",
+        "Title": "Mech Eng Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 6899",
+        "Title": "Final Semester Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MEE 6999",
+        "Title": "Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MET 2",
+        "Title": "Final Program Examination",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MET 1999",
+        "Title": "Weather Briefing",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MET 3401",
+        "Title": "Synoptic Meteorology 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MET 4233",
+        "Title": "Remote Sensing/Meteorol",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MET 4305",
+        "Title": "Atmospheric Dynamics 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MET 4410",
+        "Title": "Mesoscale Meteorology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MET 4991",
+        "Title": "UG Res in Meteorology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MET 5233",
+        "Title": "Atmosp Remote Sensing",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MET 5305",
+        "Title": "Dynamic Meterology 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MET 5310",
+        "Title": "Numerical Weather Prediction",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MET 5995",
+        "Title": "Meteorological Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MSC 1001",
+        "Title": "Military Science 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MSC 1003",
+        "Title": "Leadership Laboratory I",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MSC 2001",
+        "Title": "Military Science 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MSC 3001",
+        "Title": "Military Science 3",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MSC 4001",
+        "Title": "Military Science 4",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MSC 4003",
+        "Title": "Independ Study in Mil Sci",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 2",
+        "Title": "Final Program Examination",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 1000",
+        "Title": "Precalculus",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 1001",
+        "Title": "Calculus 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 1002",
+        "Title": "Calculus 2",
+        "Pre-req": "MTH 1001 or MTH 1010 "
+    },
+    {
+        "Course": "MTH 1003",
+        "Title": "Calculus 2 for Nat Sci",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 1010",
+        "Title": "Honors Calculus 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 1603",
+        "Title": "Appld Calc & Statistics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 1701",
+        "Title": "College Algebra",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 1702",
+        "Title": "Applied Calculus",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 2001",
+        "Title": "Calculus 3",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 2201",
+        "Title": "Diff Equat/Linear Algebra",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 2202",
+        "Title": "Linear Alg for Diff Equat",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 2401",
+        "Title": "Probability/Statistics",
+        "Pre-req": "MTH 1002 or MTH 1003 or MTH 1020 "
+    },
+    {
+        "Course": "MTH 3102",
+        "Title": "Intro to Linear Algebra",
+        "Pre-req": "MTH 1002 or MTH 1020 "
+    },
+    {
+        "Course": "MTH 3107",
+        "Title": "Optimization",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 3200",
+        "Title": "Honors Differential EQ",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 3210",
+        "Title": "Intro to PDE & Apps",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 3312",
+        "Title": "Scientific Computing",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 4101",
+        "Title": "Introductory Analysis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 4201",
+        "Title": "Models in Appld Math",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 4320",
+        "Title": "Neural Networks",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 4990",
+        "Title": "Undergraduate Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 5050",
+        "Title": "Special Topics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 5051",
+        "Title": "Applied Discrete Mathematics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 5102",
+        "Title": "Linear Algebra",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 5110",
+        "Title": "Real Analysis 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 5111",
+        "Title": "Real Analysis 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 5225",
+        "Title": "Linear Opt Models and Methods",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 5315",
+        "Title": "Num Meth for Partial Diff Equ",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 5320",
+        "Title": "Neural Networks",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 5411",
+        "Title": "Mathematical Statistics 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 5420",
+        "Title": "Theory Stochastic Process",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 6050",
+        "Title": "Res in Appld Mathematics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 6230",
+        "Title": "PDEs 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MTH 6999",
+        "Title": "Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUS 1150",
+        "Title": "Intro Applied Music",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUS 1201",
+        "Title": "Group Beginning Guitar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUS 1202",
+        "Title": "Group Intermediate Guitar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUS 1203",
+        "Title": "Group Beginning Piano",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUS 1204",
+        "Title": "Group Intermediate Piano",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUS 1310",
+        "Title": "Music Theory",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUS 2201",
+        "Title": "Concert Choir",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUS 2202",
+        "Title": "Chamber Music Ensemble",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUS 2203",
+        "Title": "Concert Band",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUS 2204",
+        "Title": "String Orchestra",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUS 2205",
+        "Title": "Jazz Ensemble",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUS 2280",
+        "Title": "Intro Amer Pop Music",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUS 3190",
+        "Title": "Junior Recital",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUS 4190",
+        "Title": "Senior Recital",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUS 5201",
+        "Title": "Concert Choir",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUS 5203",
+        "Title": "Concert Band",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUS 5204",
+        "Title": "String Orchestra",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUS 5205",
+        "Title": "Jazz Ensemble",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUSA 2202",
+        "Title": "Chamber Music Ensemble",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUSA 2203",
+        "Title": "Concert Band",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "MUSA 2205",
+        "Title": "Jazz Ensemble",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 2",
+        "Title": "Final Program Examination",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 2002",
+        "Title": "Computer Apps in OE 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 3030",
+        "Title": "Fluid Mechanics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 3033",
+        "Title": "Fluid Mechanics Lab",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 4518",
+        "Title": "Protection Marine Matls",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 4525",
+        "Title": "Coastal Engr: Structures",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 4531",
+        "Title": "Instr Design & Anlys",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 4545",
+        "Title": "Hydroacoustics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 4563",
+        "Title": "Port & Harbor Design",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 4572",
+        "Title": "Des of Mar Vehicles",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 4572",
+        "Title": "Des of Mar Vehicles",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 4575",
+        "Title": "Des of Hi Speed Sm Craft",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 4591",
+        "Title": "Spc Top in Ocean Engr",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 4592",
+        "Title": "Spc Topics in Ocean Engr",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 4594",
+        "Title": "Senior Project 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 4595",
+        "Title": "Senior Project 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 4596",
+        "Title": "Senior Project 3",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 5519",
+        "Title": "Corrosion Eng",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 5563",
+        "Title": "Port and Harbor Engr",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 5573",
+        "Title": "Dynamics of Marine Veh",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 5901",
+        "Title": "Spc Topics in Ocean Engr",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 5990",
+        "Title": "Ocean Engineering Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 5995",
+        "Title": "Ocean Eng Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 6993",
+        "Title": "Res in Ocean Engineering",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCE 6999",
+        "Title": "Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 2",
+        "Title": "Final Program Examination",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 1010",
+        "Title": "Oceanography",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 2602",
+        "Title": "Environmental Geology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 3201",
+        "Title": "Marine/Enviro Chemistry",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 3211",
+        "Title": "Marine/Enviro Chem Lab",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 3401",
+        "Title": "Physical Oceanography",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 3411",
+        "Title": "Physical Oceanography Lab",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 3430",
+        "Title": "Fund Geophysical Fluids",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 3433",
+        "Title": "Geophysical Fluids Lab",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 4013",
+        "Title": "Ocean Biology for Engineers",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 4103",
+        "Title": "Mar/Estuarine Zooplankton",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 4106",
+        "Title": "Mitigation Rest Coast System",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 4704",
+        "Title": "Rem Sensing Oceanography",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 4901",
+        "Title": "Spc Top in Oceanography",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 4911",
+        "Title": "Marine Field Projects 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 4912",
+        "Title": "Marine Field Projects 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 5013",
+        "Title": "Ocean Biology for Engineers",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 5103",
+        "Title": "Marine Zooplankton",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 5106",
+        "Title": "Mitigation Rest Coast System",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 5210",
+        "Title": "Marine/Enviro Chemistry",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 5401",
+        "Title": "Prin/Physical Oceanography",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 5704",
+        "Title": "Oceanic Remote Sensing",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 5899",
+        "Title": "Final Semester Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 5901",
+        "Title": "Spc Top in Oceanography",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 5990",
+        "Title": "Oceanography Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 5995",
+        "Title": "Oceanography Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 5996",
+        "Title": "Internship",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 5999",
+        "Title": "Thesis Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 6993",
+        "Title": "Research in Oceanography",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCN 6999",
+        "Title": "Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCNA 5013",
+        "Title": "Ocean Biology for Engineers",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCNA 5106",
+        "Title": "Mitigation Rest Coast System",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "OCNA 5210",
+        "Title": "Marine/Enviro Chemistry",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ORP 5020",
+        "Title": "Theo Stochastic Processes",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ORP 5999",
+        "Title": "Thesis Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ORP 6095",
+        "Title": "Candidacy Preparation OR",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "ORP 6999",
+        "Title": "Dissertation Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PED 1046",
+        "Title": "Intro to Weightlifting",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PED 1060",
+        "Title": "Intro to Tennis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PED 1070",
+        "Title": "Intro to Team Sports",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PED 1080",
+        "Title": "Intro to Golf",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PEDA 1046",
+        "Title": "Intro to Weightlifting",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PEDA 1080",
+        "Title": "Intro to Golf",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 2",
+        "Title": "Final Program Examination",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 1000",
+        "Title": "Physics Review",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 1001",
+        "Title": "Physics 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 1050",
+        "Title": "Physics/Space Sci Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 1999",
+        "Title": "Physical Concepts",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 2000",
+        "Title": "Physics Review 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 2002",
+        "Title": "Physics 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 2003",
+        "Title": "Modern Physics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 2091",
+        "Title": "Physics Laboratory 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 2092",
+        "Title": "Physics Laboratory 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 3011",
+        "Title": "Physical Mechanics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 3060",
+        "Title": "Thermo K. Th. St. Mech",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 3901",
+        "Title": "Research Exp in Physics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 4020",
+        "Title": "Optics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 4021",
+        "Title": "Experiments in Optics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 4033",
+        "Title": "Intro Solid State Physics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 4200",
+        "Title": "Senior Seminar 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 4201",
+        "Title": "Spc Top in Physics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 4301",
+        "Title": "Independent Study",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 4902",
+        "Title": "Undergrad Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 5015",
+        "Title": "Analytical Mechanics 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 5020",
+        "Title": "Optics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 5045",
+        "Title": "Elem Particle Physics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 5899",
+        "Title": "Final Semester Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 6001",
+        "Title": "Individual Studies",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 6090",
+        "Title": "Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 6090",
+        "Title": "Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PHY 6999",
+        "Title": "Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSF 2551",
+        "Title": "Forensic Psychology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSF 3511",
+        "Title": "Crime Analysis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSF 3512",
+        "Title": "Forensic Identification",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSF 3515",
+        "Title": "Spec Topics-Forensic Psy",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSF 4515",
+        "Title": "Adv Topics - Forensic Psy",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSF 4562",
+        "Title": "Forensic Clinical Psych",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSF 4791",
+        "Title": "Crit Iss Child Advocacy",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 1400",
+        "Title": "Psychology Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 1400",
+        "Title": "Psychology Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 1411",
+        "Title": "Intro to Psychology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 1462",
+        "Title": "Substance Abuse",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 1463",
+        "Title": "Human Sexuality",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 2413",
+        "Title": "Research Experience",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 2444",
+        "Title": "Cross-Cult & Ethnic Psy",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 2512",
+        "Title": "Psych Research & Stats 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 2800",
+        "Title": "Intro Behavior Analysis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 3421",
+        "Title": "Psych Learning/Motivation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 3423",
+        "Title": "Physiological Psychology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 3441",
+        "Title": "Social Psychology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 3442",
+        "Title": "Psychology of Personality",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 3522",
+        "Title": "Human Cognition",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 3531",
+        "Title": "Child Psychology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 4000",
+        "Title": "Field Internship",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 4413",
+        "Title": "Undergraduate Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 4512",
+        "Title": "Pers/Prof Development",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 4514",
+        "Title": "Res Meth & Stats 2",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 4515",
+        "Title": "Psychology Honors Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 4521",
+        "Title": "Animal Learning & Behavior",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 4590",
+        "Title": "Psych Honors Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5000",
+        "Title": "Clinical Colloquium",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5100",
+        "Title": "Intro to Res I/O Psych",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5101",
+        "Title": "Statistical Res Meth 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5101",
+        "Title": "Statistical Res Meth 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5106",
+        "Title": "Life-span Development",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5121",
+        "Title": "Culture and Social Psych",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5191",
+        "Title": "Direct Read in Psychology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5192",
+        "Title": "Seminar in Psychology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5198",
+        "Title": "Supervised Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5401",
+        "Title": "Intro IO Psychology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5411",
+        "Title": "Personnel Selection",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5433",
+        "Title": "Leadership Seminar",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5496",
+        "Title": "Practicum in I/O",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5501",
+        "Title": "Personality/Psychotherapy",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5511",
+        "Title": "Psychopharmacology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5521",
+        "Title": "Assessment of Intelligence",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5522",
+        "Title": "Lab/Assess of Intelligence",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5541",
+        "Title": "Clin Skills/Techniques 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5554",
+        "Title": "Psychodynamic Models",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5565",
+        "Title": "Child Disorders",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5591",
+        "Title": "Seminar/Ethics 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5594",
+        "Title": "CPS Practicum",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5595",
+        "Title": "Practicum",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5596",
+        "Title": "Spvsd Clin Exp (FLP)",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5596",
+        "Title": "Spvsd Clinical Exp",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5596",
+        "Title": "Spvsd Clin Exp",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5596",
+        "Title": "Spvsd Clinical Exp",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5899",
+        "Title": "Final Semester Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 6102",
+        "Title": "Forensic Psychology",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 6198",
+        "Title": "Supervised Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 6199",
+        "Title": "Independent Resch I/O Psy",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 6405",
+        "Title": "Multivariate Stats",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 6408",
+        "Title": "Cultural Sem in I/O Psy",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 6521",
+        "Title": "Psychodiagnostics",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 6527",
+        "Title": "Fund of Clin Neuropsych",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 6560",
+        "Title": "Supervision Clin Training",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 6570",
+        "Title": "Clinical App Beh Health",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 6590",
+        "Title": "Clinical Internship Prep",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 6595",
+        "Title": "Internship",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 6898",
+        "Title": "Final Semester Doc Res Project",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 6899",
+        "Title": "Final Semester Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 6998",
+        "Title": "Doctoral Research Project",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "PSY 6999",
+        "Title": "Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SOC 1551",
+        "Title": "American Criminal Justice",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SOC 2541",
+        "Title": "Juvenile Delinquency",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPS 2",
+        "Title": "Final Program Examination",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPS 1020",
+        "Title": "Intro to Space Sciences",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPS 3020",
+        "Title": "Methods and Instrumentation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPS 3901",
+        "Title": "Research Exp in Space Sci",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPS 4010",
+        "Title": "Astrophysics 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPS 4045",
+        "Title": "Phy & Chm of Planet Form",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPS 4050",
+        "Title": "Comp Methods for Sci Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPS 4200",
+        "Title": "Senior Seminar 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPS 4201",
+        "Title": "Spc Top in Space Sciences",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPS 4301",
+        "Title": "Independent Study",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPS 4902",
+        "Title": "Undergrad Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPS 5010",
+        "Title": "Astrophysics 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPS 5899",
+        "Title": "Final Semester Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPS 5999",
+        "Title": "Thesis in Space Sciences",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPS 6001",
+        "Title": "Individual Studies",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPS 6090",
+        "Title": "Research",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPS 6899",
+        "Title": "Final Semester Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPS 6999",
+        "Title": "Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SPSA 4010",
+        "Title": "Astrophysics 1",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SUS 1500",
+        "Title": "Intro Sustain",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SUS 3999",
+        "Title": "Sustainability Proj Design",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SWE 2",
+        "Title": "Final Program Examination",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SWE 5100",
+        "Title": "Adv Software Engineering",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SWE 5110",
+        "Title": "Requirements Engineering",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SWE 5425",
+        "Title": "Advanced Software Testing",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SWE 5899",
+        "Title": "Final Semester Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SWE 5998",
+        "Title": "Capstone Project in SWE",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SWE 5999",
+        "Title": "Thesis in SE",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SYS 4310",
+        "Title": "Sys Eng Principles",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SYS 4460",
+        "Title": "Systems Req Analysis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SYS 5310",
+        "Title": "Systems Eng Principles",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SYS 5315",
+        "Title": "Model-Based Systems Eng",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SYS 5350",
+        "Title": "Sys Modeling & Analysis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SYS 5380",
+        "Title": "SE Design Project",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SYS 5385",
+        "Title": "Sys Life Cycle Cost Est",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SYS 5420",
+        "Title": "System Architecture",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SYS 5460",
+        "Title": "Systems Requirements",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SYS 5899",
+        "Title": "Final Semester Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SYS 5999",
+        "Title": "Thesis",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SYS 6020",
+        "Title": "Adv Top in Sys Mod & Ana",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "SYS 6999",
+        "Title": "Dissertation",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "WRI 100",
+        "Title": "English Writing Review",
+        "Pre-req": "None"
+    },
+    {
+        "Course": "WRI 2150",
+        "Title": "Creative Writing",
+        "Pre-req": "None"
+    }
+]

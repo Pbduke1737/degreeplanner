@@ -1,0 +1,162 @@
+[
+    {
+        "Course": "CSE 3120",
+        "Title": "Comp Arch and Assembly",
+        "Pre-req": "CSE 2010 and CSE 2120 "
+    },
+    {
+        "Course": "CSE 3231",
+        "Title": "Computer Networks",
+        "Pre-req": "CSE 2010 "
+    },
+    {
+        "Course": "CSE 3312",
+        "Title": "Scientific Computing",
+        "Pre-req": "MTH 2201 and MTH 3200"
+    },
+    {
+        "Course": "CSE 3801",
+        "Title": "Intro to Cyber Operations",
+        "Pre-req": "CSE 2010 "
+    },
+    {
+        "Course": "CSE 4001",
+        "Title": "Opr Systems Concepts",
+        "Pre-req": "(CSE 2010 and CSE 2120) or ECE 2552 "
+    },
+    {
+        "Course": "CSE 4020",
+        "Title": "Database Systems",
+        "Pre-req": "CSE 2010"
+    },
+    {
+        "Course": "CSE 4081",
+        "Title": "Intro Ana of Algorithms",
+        "Pre-req": "CSE 2010 or (ECE 2552, and ECE 3541)"
+    },
+    {
+        "Course": "CSE 4250",
+        "Title": "Prog Language Concepts",
+        "Pre-req": "CSE 2010 or ECE 2552 "
+    },
+    {
+        "Course": "CSE 4301",
+        "Title": "Intro Art Intelligence",
+        "Pre-req": "CSE 2010 or ECE 2552 "
+    },
+    {
+        "Course": "CSE 4400",
+        "Title": "Independent Study in Comp",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CSE 4410",
+        "Title": "Intro Soft Project Mgmt",
+        "Pre-req": "CSE 3421 and CSE 4610"
+    },
+    {
+        "Course": "CSE 4510",
+        "Title": "Spc Top in Comp Science",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CSE 4610",
+        "Title": "Requirements Engineering",
+        "Pre-req": "CSE 2410"
+    },
+    {
+        "Course": "CSE 4820",
+        "Title": "Wireless/Mobile Security",
+        "Pre-req": "CSE 3231 or CSE 3801"
+    },
+    {
+        "Course": "CSE 4830",
+        "Title": "SW Reverse Engineering",
+        "Pre-req": "CSE 3231 or CSE 3801"
+    },
+    {
+        "Course": "CSE 5210",
+        "Title": "Formal Langs & Automata Theory",
+        "Pre-req": "CSE 2010"
+    },
+    {
+        "Course": "CSE 5211",
+        "Title": "Analysis of Algorithms",
+        "Pre-req": "CSE 2010 or (ECE 2552, and ECE 3541)"
+    },
+    {
+        "Course": "CSE 5231",
+        "Title": "Computer Networks",
+        "Pre-req": "CSE 2010 "
+    },
+    {
+        "Course": "CSE 5260",
+        "Title": "Database Systems",
+        "Pre-req": "CSE 2010"
+    },
+    {
+        "Course": "CSE 5272",
+        "Title": "Comp and Info Security",
+        "Pre-req": "CSE 2010"
+    },
+    {
+        "Course": "CSE 5290",
+        "Title": "Artificial Intelligence",
+        "Pre-req": "CSE 2010"
+    },
+    {
+        "Course": "CSE 5400",
+        "Title": "Topics in CS",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CSE 5500",
+        "Title": "Computer Science Seminar",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CSE 5501",
+        "Title": "CS Internship",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CSE 5683",
+        "Title": "Advanced Computer Vision",
+        "Pre-req": "CSE 2010"
+    },
+    {
+        "Course": "CSE 5694",
+        "Title": "Robotics & AI",
+        "Pre-req": "CSE 5290"
+    },
+    {
+        "Course": "CSE 5801",
+        "Title": "Independent Research CS",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CSE 5802",
+        "Title": "Research Projects in CS",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CSE 5999",
+        "Title": "Thesis",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CSE 6899",
+        "Title": "Final Semester Dissertation",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CSE 6990",
+        "Title": "Research in CS",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CSE 6999",
+        "Title": "Dissertation",
+        "Pre-req": ""
+    }
+]

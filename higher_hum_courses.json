@@ -1,0 +1,52 @@
+[
+    {
+        "Course": "HUM 3272",
+        "Title": "Serial Killers in Fiction",
+        "Pre-req": "Any 2000 HUM"
+    },
+    {
+        "Course": "HUM 3273",
+        "Title": "Enviro Lit & Society",
+        "Pre-req": "Any 2000 HUM"
+    },
+    {
+        "Course": "HUM 3334",
+        "Title": "History of Flight",
+        "Pre-req": "Any 2000 HUM"
+    },
+    {
+        "Course": "HUM 3351",
+        "Title": "Hist of Sci: Anct & Mediev",
+        "Pre-req": "Any 2000 HUM"
+    },
+    {
+        "Course": "HUM 3401",
+        "Title": "Constitutional Law 1",
+        "Pre-req": "Any 2000 HUM"
+    },
+    {
+        "Course": "HUM 3485",
+        "Title": "Spc Top in Social Science",
+        "Pre-req": "Any 2000 HUM"
+    },
+    {
+        "Course": "HUM 3571",
+        "Title": "Engineering Ethics",
+        "Pre-req": "Any 2000 HUM"
+    },
+    {
+        "Course": "HUM 3685",
+        "Title": "Special Topics in Law",
+        "Pre-req": "Any 2000 HUM"
+    },
+    {
+        "Course": "HUM 3900",
+        "Title": "Intro to the Humanities",
+        "Pre-req": "Any 2000 HUM"
+    },
+    {
+        "Course": "HUM 3999",
+        "Title": "Capstone Research Methods",
+        "Pre-req": "HUM 3905"
+    }
+]

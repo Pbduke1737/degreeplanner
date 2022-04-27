@@ -1,0 +1,162 @@
+[
+    {
+        "Course": "BIO 1010",
+        "Title": "Biological Discovery 1",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BIO 1030",
+        "Title": "Introduction to Biotechnology",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BIO 1040",
+        "Title": "Intro Biodiv and Phys",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BIO 2110",
+        "Title": "General Genetics",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BIO 2112",
+        "Title": "General Genetics Lab",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BIO 3201",
+        "Title": "Anatomy &  Physiology 1",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CHM 1101",
+        "Title": "General Chemistry 1",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CHM 1102",
+        "Title": "General Chemistry 2",
+        "Pre-req": "CHM 1101 and (MTH 1000 or MTH 1001)"
+    },
+    {
+        "Course": "CHM 1111",
+        "Title": "General Chemistry Lab 1",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CHM 1112",
+        "Title": "General Chemistry Lab 2",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CHM 2001",
+        "Title": "Organic Chemistry 1",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CHM 2002",
+        "Title": "Organic Chemistry 2",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CHM 2011",
+        "Title": "Organic Chemistry Lab 1",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CHM 2012",
+        "Title": "Organic Chemistry Lab 2",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 1003",
+        "Title": "Calculus 2 for Nat Sci",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 1010",
+        "Title": "Honors Calculus 1",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 1603",
+        "Title": "Appld Calc & Statistics",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 1701",
+        "Title": "College Algebra",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 1702",
+        "Title": "Applied Calculus",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 2001",
+        "Title": "Calculus 3",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 2201",
+        "Title": "Diff Equat/Linear Algebra",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 2202",
+        "Title": "Linear Alg for Diff Equat",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 2401",
+        "Title": "Probability/Statistics",
+        "Pre-req": "MTH 1002 or MTH 1003 or MTH 1020 "
+    },
+    {
+        "Course": "MTH 3102",
+        "Title": "Intro to Linear Algebra",
+        "Pre-req": "MTH 1002 or MTH 1020 "
+    },
+    {
+        "Course": "MTH 3107",
+        "Title": "Optimization",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 3200",
+        "Title": "Honors Differential EQ",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 3210",
+        "Title": "Intro to PDE & Apps",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 3312",
+        "Title": "Scientific Computing",
+        "Pre-req": ""
+    },
+    {
+        "Course": "PHY 2002",
+        "Title": "Physics 2",
+        "Pre-req": ""
+    },
+    {
+        "Course": "PHY 2003",
+        "Title": "Modern Physics",
+        "Pre-req": ""
+    },
+    {
+        "Course": "PHY 2091",
+        "Title": "Physics Laboratory 1",
+        "Pre-req": ""
+    },
+    {
+        "Course": "PHY 2092",
+        "Title": "Physics Laboratory 2",
+        "Pre-req": ""
+    }
+]

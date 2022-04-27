@@ -1,0 +1,67 @@
+[
+    {
+        "Course": "HUM 1010",
+        "Title": "Creative Arts Practicum",
+        "Pre-req": ""
+    },
+    {
+        "Course": "HUM 2051",
+        "Title": "Civ 1: Ancient-Medieval",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2052",
+        "Title": "Civ 2: Renaissance-Modern",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2053",
+        "Title": "Intro to Asian Civ",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2141",
+        "Title": "World Art History 1",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2211",
+        "Title": "British Lit & Culture",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2331",
+        "Title": "Amer Hist to Civil War",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2332",
+        "Title": "Amer Hist Recons to Pres",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2480",
+        "Title": "Intro to Political Science",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2510",
+        "Title": "Logic",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2551",
+        "Title": "Ancient/Mediev Philosophy",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2552",
+        "Title": "Modern/Contemp Philosophy",
+        "Pre-req": "COM 1102 "
+    },
+    {
+        "Course": "HUM 2570",
+        "Title": "Bioethics",
+        "Pre-req": "COM 1102 "
+    }
+]

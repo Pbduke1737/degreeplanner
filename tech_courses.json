@@ -1,0 +1,807 @@
+[
+    {
+        "Course": "BUS 1301",
+        "Title": "Basic Economics",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 1501",
+        "Title": "Foundations in CIE 1",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 1710",
+        "Title": "Found of Bus Analytics",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 1801",
+        "Title": "Global Bus Perspectives",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 2211",
+        "Title": "Intro to Financial Acctg",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 2212",
+        "Title": "Intro to Managerial Acct",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 2303",
+        "Title": "Macroeconomics",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 2601",
+        "Title": "Legal & Social Env of Bus",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 2601",
+        "Title": "Legal & Social Env of Bus",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 2703",
+        "Title": "Business Statistics",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3208",
+        "Title": "Fed Income Tax 1",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3211",
+        "Title": "Intermediate Accounting 1",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3214",
+        "Title": "Accounting Info Systems",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3304",
+        "Title": "Sports Economics",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3401",
+        "Title": "Corporate Finance",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3501",
+        "Title": "Management Principles",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3503",
+        "Title": "Human Resource Management",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3504",
+        "Title": "Management Information Systems",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3509",
+        "Title": "Intro to Sports Mgmt",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3511",
+        "Title": "Sys Analysis/Design",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3514",
+        "Title": "Intro to OS & Ntwk for Bu",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3601",
+        "Title": "Marketing Principles",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3601",
+        "Title": "Marketing Principles",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3603",
+        "Title": "Advertising & Promotion Mgmt",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3607",
+        "Title": "Mrktg Research",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3611",
+        "Title": "Ent & Sprts Mrktg",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3704",
+        "Title": "Quantitative Methods",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3801",
+        "Title": "Cross-cultural Management",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 3805",
+        "Title": "Emerging Mrkts Strategies",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4220",
+        "Title": "Intl Accounting & Reporting",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4284",
+        "Title": "Accounting Practicum",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4401",
+        "Title": "Investment Analysis",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4426",
+        "Title": "Environ and Resource Econ",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4501",
+        "Title": "Production/Operations Mgmt",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4502",
+        "Title": "Org Behavior and Theory",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4504",
+        "Title": "Spc Topics in Management",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4520",
+        "Title": "Leadership Theory & Pract",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4701",
+        "Title": "International Business",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4702",
+        "Title": "Bus Strategy and Policy",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4702",
+        "Title": "Bus Strategy and Policy",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4783",
+        "Title": "Practicum Planning",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4786",
+        "Title": "Major Field Practicum",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4787",
+        "Title": "Business Practicum",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4788",
+        "Title": "Business Plan Research",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4790",
+        "Title": "Directed Business Study",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5070",
+        "Title": "Special Topics in Business",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5413",
+        "Title": "Data Analytics and BI",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5421",
+        "Title": "Managerial Economics",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5426",
+        "Title": "Enviro & Resource Economics",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5431",
+        "Title": "Managerial Accounting",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5433",
+        "Title": "Adv Prob & Current Topics",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5435",
+        "Title": "Tax & Fin Acct Research",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5440",
+        "Title": "Financial Management",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5450",
+        "Title": "Organizational Behavior",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5457",
+        "Title": "Negotiation & Conflict Resolut",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5458",
+        "Title": "Leadership Theory & Effect Mgt",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5461",
+        "Title": "Production & Oper Mgmt",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5480",
+        "Title": "Strategic Management",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5486",
+        "Title": "International Business",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5601",
+        "Title": "Essentials of Bus Devel 1",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5644",
+        "Title": "Intl Acct & Reporting",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5656",
+        "Title": "Consumer Behavior Str",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5661",
+        "Title": "Strategic Proj Mgmt",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 6030",
+        "Title": "DBA Intro & Orient",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 6031",
+        "Title": "Issues in Strat Mgmt",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 6032",
+        "Title": "Org Beh/Ethics/Ldrshp in Bus",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 6037",
+        "Title": "Financial Bus Analysis",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 6990",
+        "Title": "Research Methods 1",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 6992",
+        "Title": "Special Topics Seminar",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 6999",
+        "Title": "Dissertation",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4701",
+        "Title": "International Business",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4702",
+        "Title": "Bus Strategy and Policy",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4783",
+        "Title": "Practicum Planning",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4786",
+        "Title": "Major Field Practicum",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4787",
+        "Title": "Business Practicum",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4788",
+        "Title": "Business Plan Research",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 4790",
+        "Title": "Directed Business Study",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5070",
+        "Title": "Special Topics in Business",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5413",
+        "Title": "Data Analytics and BI",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5421",
+        "Title": "Managerial Economics",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5426",
+        "Title": "Enviro & Resource Economics",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5431",
+        "Title": "Managerial Accounting",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5433",
+        "Title": "Adv Prob & Current Topics",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5435",
+        "Title": "Tax & Fin Acct Research",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5440",
+        "Title": "Financial Management",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5450",
+        "Title": "Organizational Behavior",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5450",
+        "Title": "Organizational Behavior",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5457",
+        "Title": "Negotiation & Conflict Resolut",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5458",
+        "Title": "Leadership Theory & Effect Mgt",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5461",
+        "Title": "Production & Oper Mgmt",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5480",
+        "Title": "Strategic Management",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5486",
+        "Title": "International Business",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5601",
+        "Title": "Essentials of Bus Devel 1",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5644",
+        "Title": "Intl Acct & Reporting",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5656",
+        "Title": "Consumer Behavior Str",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 5661",
+        "Title": "Strategic Proj Mgmt",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 6030",
+        "Title": "DBA Intro & Orient",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 6031",
+        "Title": "Issues in Strat Mgmt",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 6032",
+        "Title": "Org Beh/Ethics/Ldrshp in Bus",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 6037",
+        "Title": "Financial Bus Analysis",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 6990",
+        "Title": "Research Methods 1",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 6992",
+        "Title": "Special Topics Seminar",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUS 6999",
+        "Title": "Dissertation",
+        "Pre-req": ""
+    },
+    {
+        "Course": "BUSA 2303",
+        "Title": "Macroeconomics",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CSE 3120",
+        "Title": "Comp Arch and Assembly",
+        "Pre-req": "CSE 2010 and CSE 2120 "
+    },
+    {
+        "Course": "CSE 3231",
+        "Title": "Computer Networks",
+        "Pre-req": "CSE 2010 "
+    },
+    {
+        "Course": "CSE 3312",
+        "Title": "Scientific Computing",
+        "Pre-req": "MTH 2201 and MTH 3200"
+    },
+    {
+        "Course": "CSE 3411",
+        "Title": "Software Testing 1",
+        "Pre-req": "CSE 2410 or ECE 2552 or ECE 3541"
+    },
+    {
+        "Course": "CSE 3801",
+        "Title": "Intro to Cyber Operations",
+        "Pre-req": "CSE 2010 "
+    },
+    {
+        "Course": "CSE 4001",
+        "Title": "Opr Systems Concepts",
+        "Pre-req": "(CSE 2010 and CSE 2120) or ECE 2552 "
+    },
+    {
+        "Course": "CSE 4020",
+        "Title": "Database Systems",
+        "Pre-req": "CSE 2010"
+    },
+    {
+        "Course": "CSE 4081",
+        "Title": "Intro Ana of Algorithms",
+        "Pre-req": "CSE 2010 or (ECE 2552, and ECE 3541)"
+    },
+    {
+        "Course": "CSE 4083",
+        "Title": "Formal Lang/Auto Th",
+        "Pre-req": "CSE 2010 or (ECE 2552, and ECE 3541)"
+    },
+    {
+        "Course": "CSE 4101",
+        "Title": "Computer Science Proj 1",
+        "Pre-req": "CSE 2410 and CSE 3100 "
+    },
+    {
+        "Course": "CSE 4102",
+        "Title": "Computer Science Proj 2",
+        "Pre-req": "CSE 4101 "
+    },
+    {
+        "Course": "CSE 4201",
+        "Title": "Software Devel Proj 1",
+        "Pre-req": "CSE 2410 and CSE 3100 "
+    },
+    {
+        "Course": "CSE 4202",
+        "Title": "Software Devel Proj 2",
+        "Pre-req": "CSE 4201"
+    },
+    {
+        "Course": "CSE 4250",
+        "Title": "Prog Language Concepts",
+        "Pre-req": "CSE 2010 or ECE 2552 "
+    },
+    {
+        "Course": "CSE 4301",
+        "Title": "Intro Art Intelligence",
+        "Pre-req": "CSE 2010 or ECE 2552 "
+    },
+    {
+        "Course": "CSE 4400",
+        "Title": "Independent Study in Comp",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CSE 4410",
+        "Title": "Intro Soft Project Mgmt",
+        "Pre-req": "CSE 3421 and CSE 4610"
+    },
+    {
+        "Course": "CSE 4510",
+        "Title": "Spc Top in Comp Science",
+        "Pre-req": ""
+    },
+    {
+        "Course": "CSE 4610",
+        "Title": "Requirements Engineering",
+        "Pre-req": "CSE 2410"
+    },
+    {
+        "Course": "CSE 4820",
+        "Title": "Wireless/Mobile Security",
+        "Pre-req": "CSE 3231 or CSE 3801"
+    },
+    {
+        "Course": "CSE 4830",
+        "Title": "SW Reverse Engineering",
+        "Pre-req": "CSE 3231 or CSE 3801"
+    },
+    {
+        "Course": "CSE 5210",
+        "Title": "Formal Langs & Automata Theory",
+        "Pre-req": "CSE 2010"
+    },
+    {
+        "Course": "CSE 5211",
+        "Title": "Analysis of Algorithms",
+        "Pre-req": "CSE 2010 or (ECE 2552, and ECE 3541)"
+    },
+    {
+        "Course": "CSE 5231",
+        "Title": "Computer Networks",
+        "Pre-req": "CSE 2010 "
+    },
+    {
+        "Course": "CSE 5260",
+        "Title": "Database Systems",
+        "Pre-req": "CSE 2010"
+    },
+    {
+        "Course": "CSE 5272",
+        "Title": "Comp and Info Security",
+        "Pre-req": "CSE 2010"
+    },
+    {
+        "Course": "CSE 5290",
+        "Title": "Artificial Intelligence",
+        "Pre-req": "CSE 2010"
+    },
+    {
+        "Course": "ECE 1551",
+        "Title": "Digital Logic",
+        "Pre-req": ""
+    },
+    {
+        "Course": "ECE 2111",
+        "Title": "Circuit Theory 1",
+        "Pre-req": ""
+    },
+    {
+        "Course": "ECE 2551",
+        "Title": "Soft/Hardware Design",
+        "Pre-req": ""
+    },
+    {
+        "Course": "ECE 2551",
+        "Title": "Soft/Hardware Design",
+        "Pre-req": ""
+    },
+    {
+        "Course": "ECE 2551",
+        "Title": "Soft/Hardware Design",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 2001",
+        "Title": "Calculus 3",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 2201",
+        "Title": "Diff Equat/Linear Algebra",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 2202",
+        "Title": "Linear Alg for Diff Equat",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 2401",
+        "Title": "Probability/Statistics",
+        "Pre-req": "MTH 1002 or MTH 1003 or MTH 1020 "
+    },
+    {
+        "Course": "MTH 3102",
+        "Title": "Intro to Linear Algebra",
+        "Pre-req": "MTH 1002 or MTH 1020 "
+    },
+    {
+        "Course": "MTH 3107",
+        "Title": "Optimization",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 3200",
+        "Title": "Honors Differential EQ",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 3210",
+        "Title": "Intro to PDE & Apps",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 3312",
+        "Title": "Scientific Computing",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 4101",
+        "Title": "Introductory Analysis",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 4201",
+        "Title": "Models in Appld Math",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 4320",
+        "Title": "Neural Networks",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 4990",
+        "Title": "Undergraduate Research",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 5050",
+        "Title": "Special Topics",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 5051",
+        "Title": "Applied Discrete Mathematics",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 5102",
+        "Title": "Linear Algebra",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 5110",
+        "Title": "Real Analysis 1",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 5111",
+        "Title": "Real Analysis 2",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 5225",
+        "Title": "Linear Opt Models and Methods",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 5315",
+        "Title": "Num Meth for Partial Diff Equ",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 5320",
+        "Title": "Neural Networks",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 5411",
+        "Title": "Mathematical Statistics 1",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 5420",
+        "Title": "Theory Stochastic Process",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 6050",
+        "Title": "Res in Appld Mathematics",
+        "Pre-req": ""
+    },
+    {
+        "Course": "MTH 6230",
+        "Title": "PDEs 2",
+        "Pre-req": ""
+    }
+]
